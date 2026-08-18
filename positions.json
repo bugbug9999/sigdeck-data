@@ -1,55 +1,44 @@
 {
- "fetchedAt": "2026-08-18T04:50:26Z",
+ "fetchedAt": "2026-08-18T05:39:17Z",
  "positions": [
-  {
-   "symbol": "ETHUSDT",
-   "side": "SHORT",
-   "entryPx": 1900.8120592,
-   "markPx": 1894.91,
-   "size": 0.01,
-   "notional": 18.95,
-   "leverage": "10",
-   "uPnl": 0.06,
-   "uPnlPct": 0.31
-  },
   {
    "symbol": "HYPEUSDT",
    "side": "SHORT",
    "entryPx": 58.6679955,
-   "markPx": 59.18,
+   "markPx": 59.01,
    "size": 2027.59,
-   "notional": 119992.78,
+   "notional": 119648.09,
    "leverage": "25",
-   "uPnl": -1038.14,
-   "uPnlPct": -0.87
+   "uPnl": -693.44,
+   "uPnlPct": -0.58
   },
   {
    "symbol": "BTCUSDT",
    "side": "SHORT",
    "entryPx": 63695.82956522,
-   "markPx": 64168.7,
+   "markPx": 64133.71,
    "size": 1.725,
-   "notional": 110691.01,
+   "notional": 110630.65,
    "leverage": "10",
-   "uPnl": -815.7,
-   "uPnlPct": -0.74
+   "uPnl": -755.34,
+   "uPnlPct": -0.69
   }
  ],
  "totals": {
-  "uPnl": -1853.78
+  "uPnl": -1448.78
  },
  "stats": {
   "d7": {
-   "trades": 36,
-   "wins": 34,
-   "winRate": 94.4,
-   "pnl": 6324.04
+   "trades": 37,
+   "wins": 35,
+   "winRate": 94.6,
+   "pnl": 6324.08
   },
   "d30": {
-   "trades": 75,
-   "wins": 71,
+   "trades": 76,
+   "wins": 72,
    "winRate": 94.7,
-   "pnl": 14770.96
+   "pnl": 14771.01
   }
  },
  "error": null
