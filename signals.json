@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T05:22:29Z",
+ "generatedAt": "2026-08-19T05:37:58Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -56,7 +56,7 @@
     "price": 221.0500030517578,
     "ts": "2026-08-05T13:30:00Z"
    },
-   "stale": false
+   "stale": true
   },
   {
    "symbol": "NVDA",
@@ -132,7 +132,7 @@
     "price": 322.125,
     "ts": "2026-08-03T13:30:00Z"
    },
-   "stale": false
+   "stale": true
   },
   {
    "symbol": "TSLA",
@@ -208,7 +208,7 @@
     "price": 310.3999938964844,
     "ts": "2026-08-18T13:30:00Z"
    },
-   "stale": false
+   "stale": true
   },
   {
    "symbol": "AAPL",
@@ -284,7 +284,7 @@
     "price": 455.95001220703125,
     "ts": "2026-07-30T13:30:00Z"
    },
-   "stale": false
+   "stale": true
   },
   {
    "symbol": "MSFT",
@@ -360,7 +360,7 @@
     "price": 593.844970703125,
     "ts": "2026-08-03T13:30:00Z"
    },
-   "stale": false
+   "stale": true
   },
   {
    "symbol": "META",
@@ -436,7 +436,7 @@
     "price": 137.72500610351562,
     "ts": "2026-07-07T13:30:00Z"
    },
-   "stale": false
+   "stale": true
   },
   {
    "symbol": "PLTR",
@@ -463,12 +463,12 @@
    "tf": "15m",
    "state": "ARMED",
    "indicators": {
-    "rsi": 45.3,
-    "vwma20": 64392.1231,
-    "close": 64369.3,
-    "closeVsVwmaPct": -0.04
+    "rsi": 41.0,
+    "vwma20": 64377.5534,
+    "close": 64323.1,
+    "closeVsVwmaPct": -0.08
    },
-   "candleTs": "2026-08-19T05:00:00Z",
+   "candleTs": "2026-08-19T05:15:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 64963.3,
@@ -539,12 +539,12 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 51.4,
-    "vwma20": 1911.413,
-    "close": 1912.31,
-    "closeVsVwmaPct": 0.05
+    "rsi": 52.3,
+    "vwma20": 1911.3327,
+    "close": 1912.69,
+    "closeVsVwmaPct": 0.07
    },
-   "candleTs": "2026-08-19T05:00:00Z",
+   "candleTs": "2026-08-19T05:15:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 1917.32,
@@ -615,12 +615,12 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 53.3,
-    "vwma20": 58.5487,
-    "close": 58.61,
-    "closeVsVwmaPct": 0.1
+    "rsi": 50.1,
+    "vwma20": 58.5491,
+    "close": 58.54,
+    "closeVsVwmaPct": -0.02
    },
-   "candleTs": "2026-08-19T05:00:00Z",
+   "candleTs": "2026-08-19T05:15:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 58.89,
