@@ -1,41 +1,49 @@
 {
- "fetchedAt": "2026-08-20T19:06:05Z",
+ "fetchedAt": "2026-08-20T19:21:35Z",
  "positions": [
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 72467.94352264,
-   "markPx": 72375.92,
-   "size": 2.694,
-   "notional": 194980.73,
+   "markPx": 72497.4,
+   "size": 1.731,
+   "notional": 125493.0,
    "leverage": "25",
-   "uPnl": -247.91,
-   "uPnlPct": -0.13
+   "uPnl": 50.99,
+   "uPnlPct": 0.04
   }
  ],
  "totals": {
-  "uPnl": -247.91
+  "uPnl": 50.99
  },
  "equity": {
-  "totalEquity": 297453.5,
-  "usdtBalance": 25396.16,
-  "usdtEquity": 25148.25
+  "totalEquity": 298290.96,
+  "usdtBalance": 25439.93,
+  "usdtEquity": 25490.92
  },
  "stats": {
   "d7": {
-   "trades": 42,
-   "wins": 32,
-   "winRate": 76.2,
-   "pnl": -9274.97
+   "trades": 43,
+   "wins": 33,
+   "winRate": 76.7,
+   "pnl": -9243.41
   },
   "d30": {
-   "trades": 92,
-   "wins": 79,
-   "winRate": 85.9,
-   "pnl": 1790.02
+   "trades": 93,
+   "wins": 80,
+   "winRate": 86.0,
+   "pnl": 1821.58
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 31.56,
+   "ts": "2026-08-20T19:17:24Z",
+   "entry": 72467.9436,
+   "exit": 72525.0
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -123,18 +131,17 @@
    "ts": "2026-08-20T11:32:25Z",
    "entry": 71788.0039,
    "exit": 71987.4
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 129.08,
-   "ts": "2026-08-20T10:11:18Z",
-   "entry": 71599.6,
-   "exit": 71870.1
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 31.56,
+    "ts": "2026-08-20T19:17:24Z",
+    "entry": 72467.9436,
+    "exit": 72525.0
+   },
    {
     "side": "LONG",
     "pnl": 24.6,
@@ -169,13 +176,6 @@
     "ts": "2026-08-20T13:16:31Z",
     "entry": 71962.3293,
     "exit": 71991.9
-   },
-   {
-    "side": "LONG",
-    "pnl": -4.64,
-    "ts": "2026-08-20T13:16:27Z",
-    "entry": 71962.3293,
-    "exit": 71984.3
    }
   ],
   "ETHUSDT": [
@@ -273,6 +273,6 @@
   "equity": 6062.67,
   "pnlPct": -39.37,
   "positions": [],
-  "asOf": "2026-08-20T19:06:05Z"
+  "asOf": "2026-08-20T19:21:35Z"
  }
 }
