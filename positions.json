@@ -1,29 +1,49 @@
 {
- "fetchedAt": "2026-08-20T18:35:05Z",
- "positions": [],
+ "fetchedAt": "2026-08-20T18:50:34Z",
+ "positions": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "entryPx": 72467.94352264,
+   "markPx": 72489.3,
+   "size": 2.694,
+   "notional": 195286.17,
+   "leverage": "25",
+   "uPnl": 57.53,
+   "uPnlPct": 0.03
+  }
+ ],
  "totals": {
-  "uPnl": 0
+  "uPnl": 57.53
  },
  "equity": {
-  "totalEquity": 297927.37,
-  "usdtBalance": 25405.72,
-  "usdtEquity": 25405.72
+  "totalEquity": 298218.02,
+  "usdtBalance": 25396.16,
+  "usdtEquity": 25453.7
  },
  "stats": {
   "d7": {
-   "trades": 41,
-   "wins": 31,
-   "winRate": 75.6,
-   "pnl": -9299.57
+   "trades": 42,
+   "wins": 32,
+   "winRate": 76.2,
+   "pnl": -9274.97
   },
   "d30": {
-   "trades": 91,
-   "wins": 78,
-   "winRate": 85.7,
-   "pnl": 1765.42
+   "trades": 92,
+   "wins": 79,
+   "winRate": 85.9,
+   "pnl": 1790.02
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 24.6,
+   "ts": "2026-08-20T18:49:07Z",
+   "entry": 72440.1375,
+   "exit": 72490.0
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -111,18 +131,17 @@
    "ts": "2026-08-20T10:11:18Z",
    "entry": 71599.6,
    "exit": 71870.1
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "SHORT",
-   "pnl": -1688.15,
-   "ts": "2026-08-20T08:23:29Z",
-   "entry": 69838.1,
-   "exit": 71102.9031
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 24.6,
+    "ts": "2026-08-20T18:49:07Z",
+    "entry": 72440.1375,
+    "exit": 72490.0
+   },
    {
     "side": "LONG",
     "pnl": 0.24,
@@ -157,13 +176,6 @@
     "ts": "2026-08-20T13:16:27Z",
     "entry": 71962.3293,
     "exit": 71984.3
-   },
-   {
-    "side": "LONG",
-    "pnl": 20.96,
-    "ts": "2026-08-20T13:08:16Z",
-    "entry": 71962.3293,
-    "exit": 72004.8
    }
   ],
   "ETHUSDT": [
@@ -261,6 +273,6 @@
   "equity": 6062.67,
   "pnlPct": -39.37,
   "positions": [],
-  "asOf": "2026-08-20T18:35:05Z"
+  "asOf": "2026-08-20T18:50:34Z"
  }
 }
