@@ -1,41 +1,37 @@
 {
- "fetchedAt": "2026-08-21T05:27:16Z",
- "positions": [
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "entryPx": 74726.77211277,
-   "markPx": 75147.0,
-   "size": 0.341,
-   "notional": 25625.13,
-   "leverage": "25",
-   "uPnl": 143.3,
-   "uPnlPct": 0.56
-  }
- ],
+ "fetchedAt": "2026-08-21T05:42:44Z",
+ "positions": [],
  "totals": {
-  "uPnl": 143.3
+  "uPnl": 0
  },
  "equity": {
-  "totalEquity": 308595.22,
-  "usdtBalance": 25816.22,
-  "usdtEquity": 25959.52
+  "totalEquity": 309168.5,
+  "usdtBalance": 25993.94,
+  "usdtEquity": 25993.94
  },
  "stats": {
   "d7": {
-   "trades": 49,
-   "wins": 39,
-   "winRate": 79.6,
-   "pnl": -9158.71
+   "trades": 50,
+   "wins": 40,
+   "winRate": 80.0,
+   "pnl": -8985.06
   },
   "d30": {
-   "trades": 100,
-   "wins": 87,
-   "winRate": 87.0,
-   "pnl": 2166.28
+   "trades": 99,
+   "wins": 86,
+   "winRate": 86.9,
+   "pnl": 2287.21
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 173.65,
+   "ts": "2026-08-21T05:41:03Z",
+   "entry": 74726.7722,
+   "exit": 75260.0
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -123,18 +119,17 @@
    "ts": "2026-08-20T15:01:43Z",
    "entry": 71619.2,
    "exit": 71903.9
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 209.36,
-   "ts": "2026-08-20T15:01:27Z",
-   "entry": 71619.2,
-   "exit": 71900.0
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 173.65,
+    "ts": "2026-08-21T05:41:03Z",
+    "entry": 74726.7722,
+    "exit": 75260.0
+   },
    {
     "side": "LONG",
     "pnl": 47.41,
@@ -169,13 +164,6 @@
     "ts": "2026-08-21T03:47:55Z",
     "entry": 74726.7722,
     "exit": 74758.6
-   },
-   {
-    "side": "LONG",
-    "pnl": 53.3,
-    "ts": "2026-08-20T19:23:39Z",
-    "entry": 72467.9436,
-    "exit": 72542.0
    }
   ],
   "ETHUSDT": [
@@ -273,6 +261,6 @@
   "equity": 6062.67,
   "pnlPct": -39.37,
   "positions": [],
-  "asOf": "2026-08-21T05:27:16Z"
+  "asOf": "2026-08-21T05:42:44Z"
  }
 }
