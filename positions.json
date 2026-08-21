@@ -1,29 +1,49 @@
 {
- "fetchedAt": "2026-08-21T06:44:40Z",
- "positions": [],
+ "fetchedAt": "2026-08-21T07:00:08Z",
+ "positions": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "entryPx": 75358.62723845,
+   "markPx": 75595.95,
+   "size": 0.797,
+   "notional": 60249.97,
+   "leverage": "25",
+   "uPnl": 189.15,
+   "uPnlPct": 0.31
+  }
+ ],
  "totals": {
-  "uPnl": 0
+  "uPnl": 189.15
  },
  "equity": {
-  "totalEquity": 310189.63,
-  "usdtBalance": 26416.75,
-  "usdtEquity": 26416.75
+  "totalEquity": 310976.94,
+  "usdtBalance": 26453.93,
+  "usdtEquity": 26643.07
  },
  "stats": {
   "d7": {
-   "trades": 55,
-   "wins": 45,
-   "winRate": 81.8,
-   "pnl": -8562.25
+   "trades": 56,
+   "wins": 46,
+   "winRate": 82.1,
+   "pnl": -8515.46
   },
   "d30": {
-   "trades": 104,
-   "wins": 91,
-   "winRate": 87.5,
-   "pnl": 2710.02
+   "trades": 105,
+   "wins": 92,
+   "winRate": 87.6,
+   "pnl": 2756.8
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 46.79,
+   "ts": "2026-08-21T06:57:52Z",
+   "entry": 75358.6273,
+   "exit": 75560.0
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -111,18 +131,17 @@
    "ts": "2026-08-21T03:47:55Z",
    "entry": 74726.7722,
    "exit": 74758.6
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 53.3,
-   "ts": "2026-08-20T19:23:39Z",
-   "entry": 72467.9436,
-   "exit": 72542.0
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 46.79,
+    "ts": "2026-08-21T06:57:52Z",
+    "entry": 75358.6273,
+    "exit": 75560.0
+   },
    {
     "side": "LONG",
     "pnl": 0.26,
@@ -157,13 +176,6 @@
     "ts": "2026-08-21T06:31:41Z",
     "entry": 75276.1806,
     "exit": 75436.0
-   },
-   {
-    "side": "LONG",
-    "pnl": 173.65,
-    "ts": "2026-08-21T05:41:03Z",
-    "entry": 74726.7722,
-    "exit": 75260.0
    }
   ],
   "ETHUSDT": [
@@ -261,6 +273,6 @@
   "equity": 6062.67,
   "pnlPct": -39.37,
   "positions": [],
-  "asOf": "2026-08-21T06:44:40Z"
+  "asOf": "2026-08-21T07:00:08Z"
  }
 }
