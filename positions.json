@@ -1,41 +1,49 @@
 {
- "fetchedAt": "2026-08-21T03:38:34Z",
+ "fetchedAt": "2026-08-21T03:54:08Z",
  "positions": [
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 74726.77211277,
-   "markPx": 74465.5,
-   "size": 2.944,
-   "notional": 219226.43,
+   "markPx": 74726.01,
+   "size": 2.008,
+   "notional": 150049.83,
    "leverage": "25",
-   "uPnl": -769.19,
-   "uPnlPct": -0.35
+   "uPnl": -1.53,
+   "uPnlPct": -0.0
   }
  ],
  "totals": {
-  "uPnl": -769.19
+  "uPnl": -1.53
  },
  "equity": {
-  "totalEquity": 304793.6,
-  "usdtBalance": 25515.9,
-  "usdtEquity": 24746.72
+  "totalEquity": 306630.38,
+  "usdtBalance": 25534.5,
+  "usdtEquity": 25532.97
  },
  "stats": {
   "d7": {
-   "trades": 44,
-   "wins": 34,
-   "winRate": 77.3,
-   "pnl": -9427.9
+   "trades": 45,
+   "wins": 35,
+   "winRate": 77.8,
+   "pnl": -9420.5
   },
   "d30": {
-   "trades": 96,
-   "wins": 83,
-   "winRate": 86.5,
-   "pnl": 1910.8
+   "trades": 97,
+   "wins": 84,
+   "winRate": 86.6,
+   "pnl": 1918.21
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 7.4,
+   "ts": "2026-08-21T03:47:55Z",
+   "entry": 74726.7722,
+   "exit": 74758.6
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -123,18 +131,17 @@
    "ts": "2026-08-20T13:08:16Z",
    "entry": 71962.3293,
    "exit": 72004.8
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": -213.76,
-   "ts": "2026-08-20T12:57:45Z",
-   "entry": 71962.3293,
-   "exit": 71913.0
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 7.4,
+    "ts": "2026-08-21T03:47:55Z",
+    "entry": 74726.7722,
+    "exit": 74758.6
+   },
    {
     "side": "LONG",
     "pnl": 53.3,
@@ -169,13 +176,6 @@
     "ts": "2026-08-20T18:49:07Z",
     "entry": 72440.1375,
     "exit": 72490.0
-   },
-   {
-    "side": "LONG",
-    "pnl": 0.24,
-    "ts": "2026-08-20T15:01:43Z",
-    "entry": 71619.2,
-    "exit": 71903.9
    }
   ],
   "ETHUSDT": [
@@ -273,6 +273,6 @@
   "equity": 6062.67,
   "pnlPct": -39.37,
   "positions": [],
-  "asOf": "2026-08-21T03:38:34Z"
+  "asOf": "2026-08-21T03:54:08Z"
  }
 }
