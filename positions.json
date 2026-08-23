@@ -1,41 +1,49 @@
 {
- "fetchedAt": "2026-08-23T14:28:18Z",
+ "fetchedAt": "2026-08-23T14:44:09Z",
  "positions": [
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 77218.67111714,
-   "markPx": 77464.6,
-   "size": 4.876,
-   "notional": 377717.39,
+   "markPx": 77062.5,
+   "size": 4.792,
+   "notional": 369283.5,
    "leverage": "25",
-   "uPnl": 1199.15,
-   "uPnlPct": 0.32
+   "uPnl": -748.37,
+   "uPnlPct": -0.2
   }
  ],
  "totals": {
-  "uPnl": 1199.15
+  "uPnl": -748.37
  },
  "equity": {
-  "totalEquity": 302222.25,
-  "usdtBalance": 300690.58,
-  "usdtEquity": 301889.73
+  "totalEquity": 300420.81,
+  "usdtBalance": 300705.65,
+  "usdtEquity": 300065.09
  },
  "stats": {
   "d7": {
-   "trades": 86,
-   "wins": 74,
-   "winRate": 86.0,
-   "pnl": -5039.26
+   "trades": 87,
+   "wins": 75,
+   "winRate": 86.2,
+   "pnl": -5027.02
   },
   "d30": {
-   "trades": 142,
-   "wins": 126,
-   "winRate": 88.7,
-   "pnl": 6900.34
+   "trades": 143,
+   "wins": 127,
+   "winRate": 88.8,
+   "pnl": 6912.59
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 12.24,
+   "ts": "2026-08-23T14:41:49Z",
+   "entry": 77218.6712,
+   "exit": 77410.4
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -123,18 +131,17 @@
    "ts": "2026-08-22T04:35:41Z",
    "entry": 78502.1648,
    "exit": 78603.8
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 115.03,
-   "ts": "2026-08-22T04:34:24Z",
-   "entry": 78502.1648,
-   "exit": 78656.7
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 12.24,
+    "ts": "2026-08-23T14:41:49Z",
+    "entry": 77218.6712,
+    "exit": 77410.4
+   },
    {
     "side": "LONG",
     "pnl": 568.47,
@@ -169,13 +176,6 @@
     "ts": "2026-08-22T03:34:53Z",
     "entry": 78437.9095,
     "exit": 78638.8112
-   },
-   {
-    "side": "LONG",
-    "pnl": 44.07,
-    "ts": "2026-08-22T03:29:23Z",
-    "entry": 78437.9095,
-    "exit": 78695.0
    }
   ],
   "HYPEUSDT": [
@@ -288,6 +288,6 @@
     "uPnl": 86.92
    }
   ],
-  "asOf": "2026-08-23T14:28:18Z"
+  "asOf": "2026-08-23T14:44:09Z"
  }
 }
