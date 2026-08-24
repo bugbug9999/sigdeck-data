@@ -1,41 +1,49 @@
 {
- "fetchedAt": "2026-08-24T02:08:39Z",
+ "fetchedAt": "2026-08-24T02:24:10Z",
  "positions": [
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 77339.76071429,
-   "markPx": 77053.0,
-   "size": 0.84,
-   "notional": 64724.52,
+   "markPx": 77414.06,
+   "size": 0.389,
+   "notional": 30114.07,
    "leverage": "25",
-   "uPnl": -240.88,
-   "uPnlPct": -0.37
+   "uPnl": 28.9,
+   "uPnlPct": 0.1
   }
  ],
  "totals": {
-  "uPnl": -240.88
+  "uPnl": 28.9
  },
  "equity": {
-  "totalEquity": 300027.29,
-  "usdtBalance": 31188.13,
-  "usdtEquity": 30947.25
+  "totalEquity": 301591.34,
+  "usdtBalance": 31225.18,
+  "usdtEquity": 31254.08
  },
  "stats": {
   "d7": {
    "trades": 88,
    "wins": 76,
    "winRate": 86.4,
-   "pnl": -5599.99
+   "pnl": -5653.6
   },
   "d30": {
-   "trades": 150,
-   "wins": 134,
-   "winRate": 89.3,
-   "pnl": 7244.41
+   "trades": 151,
+   "wins": 135,
+   "winRate": 89.4,
+   "pnl": 7275.88
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 31.47,
+   "ts": "2026-08-24T02:17:19Z",
+   "entry": 77339.7608,
+   "exit": 77434.3
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -123,18 +131,17 @@
    "ts": "2026-08-23T08:41:57Z",
    "entry": 79.1275497,
    "exit": 79.31
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": 26.78,
-   "ts": "2026-08-23T01:22:32Z",
-   "entry": 80.51,
-   "exit": 80.7
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 31.47,
+    "ts": "2026-08-24T02:17:19Z",
+    "entry": 77339.7608,
+    "exit": 77434.3
+   },
    {
     "side": "LONG",
     "pnl": 3.29,
@@ -169,13 +176,6 @@
     "ts": "2026-08-23T16:23:31Z",
     "entry": 77186.4466,
     "exit": 77253.4
-   },
-   {
-    "side": "LONG",
-    "pnl": 50.25,
-    "ts": "2026-08-23T15:43:35Z",
-    "entry": 77186.4466,
-    "exit": 77272.8
    }
   ],
   "HYPEUSDT": [
@@ -288,6 +288,6 @@
     "uPnl": 9.75
    }
   ],
-  "asOf": "2026-08-24T02:08:39Z"
+  "asOf": "2026-08-24T02:24:10Z"
  }
 }
