@@ -1,32 +1,32 @@
 {
- "fetchedAt": "2026-08-25T02:44:25Z",
+ "fetchedAt": "2026-08-25T02:59:57Z",
  "positions": [
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2496.52513525,
-   "markPx": 2518.5,
+   "markPx": 2506.45,
    "size": 12.03,
-   "notional": 30297.55,
+   "notional": 30152.59,
    "leverage": "10",
-   "uPnl": 264.36,
-   "uPnlPct": 0.88
+   "uPnl": 119.4,
+   "uPnlPct": 0.4
   }
  ],
  "totals": {
-  "uPnl": 264.36
+  "uPnl": 119.4
  },
  "equity": {
-  "totalEquity": 317215.24,
+  "totalEquity": 316117.96,
   "usdtBalance": 34471.27,
-  "usdtEquity": 34730.69
+  "usdtEquity": 34590.66
  },
  "stats": {
   "d7": {
-   "trades": 101,
-   "wins": 89,
-   "winRate": 88.1,
-   "pnl": -2430.36
+   "trades": 100,
+   "wins": 88,
+   "winRate": 88.0,
+   "pnl": -2609.61
   },
   "d30": {
    "trades": 165,
@@ -281,6 +281,6 @@
     "uPnl": 76.2
    }
   ],
-  "asOf": "2026-08-25T02:44:25Z"
+  "asOf": "2026-08-25T02:59:57Z"
  }
 }
