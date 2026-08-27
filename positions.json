@@ -1,35 +1,28 @@
 {
- "fetchedAt": "2026-08-27T14:59:38Z",
+ "fetchedAt": "2026-08-27T16:04:24Z",
  "positions": [],
  "totals": {},
- "error": "invalid request, please check your server timestamp or recv_window param: req_timestamp[1787842769649],server_timestamp[1787842777022],recv_window[5000]",
+ "error": "invalid request, please check your server timestamp or recv_window param: req_timestamp[1787846656670],server_timestamp[1787846663412],recv_window[5000]",
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 11145.85,
-  "pnlPct": 11.46,
+  "equity": 11508.34,
+  "pnlPct": 15.08,
   "positions": [
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 78997.5,
-    "uPnl": 60.09
+    "uPnl": 141.72
    },
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2473.44,
-    "uPnl": 84.35
-   },
-   {
-    "symbol": "HYPEUSDT",
-    "side": "LONG",
-    "lev": 3.0,
-    "entryPx": 80.05,
-    "uPnl": 335.45
+    "uPnl": 166.76
    }
   ],
-  "asOf": "2026-08-27T14:59:38Z"
+  "asOf": "2026-08-27T16:04:24Z"
  }
 }
