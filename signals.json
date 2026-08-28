@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T06:31:11Z",
+ "generatedAt": "2026-08-28T06:48:56Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -277,27 +277,6 @@
   {
    "symbol": "MSFT",
    "market": "US",
-   "tf": "1h",
-   "state": "CAUTION",
-   "indicators": {
-    "rsi": 71.2,
-    "vwma20": 498.2827,
-    "close": 505.05999755859375,
-    "closeVsVwmaPct": 1.36
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-08-27T20:00:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 491.5,
-    "ts": "2026-08-25T19:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "MSFT",
-   "market": "US",
    "tf": "4h",
    "state": "CAUTION",
    "indicators": {
@@ -511,13 +490,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 45.6,
-    "vwma20": 80068.881,
-    "close": 79794.9,
-    "closeVsVwmaPct": -0.34
+    "rsi": 46.9,
+    "vwma20": 79912.3649,
+    "close": 79831.6,
+    "closeVsVwmaPct": -0.1
    },
    "sellTh": 64.7,
-   "candleTs": "2026-08-28T06:15:00Z",
+   "candleTs": "2026-08-28T06:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 79010.7,
@@ -595,13 +574,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 52.9,
-    "vwma20": 2497.1416,
-    "close": 2500.2,
-    "closeVsVwmaPct": 0.12
+    "rsi": 53.2,
+    "vwma20": 2495.0396,
+    "close": 2500.46,
+    "closeVsVwmaPct": 0.22
    },
    "sellTh": 62.3,
-   "candleTs": "2026-08-28T06:15:00Z",
+   "candleTs": "2026-08-28T06:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 2502.49,
@@ -679,13 +658,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 41.7,
-    "vwma20": 83.383,
-    "close": 83.06,
-    "closeVsVwmaPct": -0.39
+    "rsi": 44.6,
+    "vwma20": 83.3168,
+    "close": 83.22,
+    "closeVsVwmaPct": -0.12
    },
    "sellTh": 64.5,
-   "candleTs": "2026-08-28T06:15:00Z",
+   "candleTs": "2026-08-28T06:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 82.52,
@@ -758,7 +737,15 @@
    "regime": "BULL"
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "symbol": "MSFT",
+   "tf": "1h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+   "at": "2026-08-28T06:47:52Z"
+  }
+ ],
  "regimes": {
   "NVDA": "BULL",
   "TSLA": "BEAR",
