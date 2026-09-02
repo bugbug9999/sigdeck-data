@@ -1,287 +1,258 @@
 {
- "generatedAt": "2026-09-02T03:19:29Z",
- "signals": [
-  {
-   "symbol": "NVDA",
-   "market": "US",
-   "tf": "15m",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 44.0,
-    "vwma20": 218.3782,
-    "close": 217.44000244140625,
-    "closeVsVwmaPct": -0.43
-   },
-   "sellTh": 67.4,
-   "candleTs": "2026-09-01T20:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 220.19000244140625,
-    "ts": "2026-08-31T14:00:00Z"
-   },
-   "stale": true,
-   "regime": null
-  },
-  {
-   "symbol": "NVDA",
-   "market": "US",
-   "tf": "4h",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 49.9,
-    "vwma20": 218.5078,
-    "close": 217.44000244140625,
-    "closeVsVwmaPct": -0.49
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-09-01T17:30:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 229.24949645996094,
-    "ts": "2026-08-27T13:30:00Z"
-   },
-   "stale": false,
-   "regime": null
-  }
- ],
+ "generatedAt": "2026-09-02T03:44:51Z",
+ "signals": [],
  "errors": [
   {
    "symbol": "NVDA",
+   "tf": "15m",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-09-02T03:37:23Z"
+  },
+  {
+   "symbol": "NVDA",
    "tf": "1h",
    "code": "FETCH_FAIL",
-   "detail": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
-   "at": "2026-09-02T03:13:00Z"
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-09-02T03:37:29Z"
+  },
+  {
+   "symbol": "NVDA",
+   "tf": "4h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-09-02T03:37:34Z"
   },
   {
    "symbol": "NVDA",
    "tf": "1D",
    "code": "FETCH_FAIL",
-   "detail": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
-   "at": "2026-09-02T03:14:29Z"
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-09-02T03:37:39Z"
   },
   {
    "symbol": "TSLA",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:15:25Z"
+   "at": "2026-09-02T03:37:44Z"
   },
   {
    "symbol": "TSLA",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:15:30Z"
+   "at": "2026-09-02T03:37:49Z"
   },
   {
    "symbol": "TSLA",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:15:35Z"
+   "at": "2026-09-02T03:37:54Z"
   },
   {
    "symbol": "TSLA",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:15:40Z"
+   "at": "2026-09-02T03:37:59Z"
   },
   {
    "symbol": "AAPL",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:15:45Z"
+   "at": "2026-09-02T03:38:04Z"
   },
   {
    "symbol": "AAPL",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:15:51Z"
+   "at": "2026-09-02T03:38:09Z"
   },
   {
    "symbol": "AAPL",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:15:56Z"
+   "at": "2026-09-02T03:38:14Z"
   },
   {
    "symbol": "AAPL",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:16:01Z"
+   "at": "2026-09-02T03:38:20Z"
   },
   {
    "symbol": "MSFT",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:16:06Z"
+   "at": "2026-09-02T03:38:25Z"
   },
   {
    "symbol": "MSFT",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:16:11Z"
+   "at": "2026-09-02T03:38:30Z"
   },
   {
    "symbol": "MSFT",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:16:16Z"
+   "at": "2026-09-02T03:38:35Z"
   },
   {
    "symbol": "MSFT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:20Z"
+   "at": "2026-09-02T03:39:08Z"
   },
   {
    "symbol": "META",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:25Z"
+   "at": "2026-09-02T03:39:13Z"
   },
   {
    "symbol": "META",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:30Z"
+   "at": "2026-09-02T03:39:19Z"
   },
   {
    "symbol": "META",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:35Z"
+   "at": "2026-09-02T03:39:24Z"
   },
   {
    "symbol": "META",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:40Z"
+   "at": "2026-09-02T03:39:29Z"
   },
   {
    "symbol": "PLTR",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:45Z"
+   "at": "2026-09-02T03:39:34Z"
   },
   {
    "symbol": "PLTR",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:50Z"
+   "at": "2026-09-02T03:39:39Z"
   },
   {
    "symbol": "PLTR",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:17:56Z"
+   "at": "2026-09-02T03:39:44Z"
   },
   {
    "symbol": "PLTR",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:01Z"
+   "at": "2026-09-02T03:39:49Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "15m",
    "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:06Z"
+   "detail": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+   "at": "2026-09-02T03:41:08Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "1h",
    "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:11Z"
+   "detail": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+   "at": "2026-09-02T03:42:19Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "4h",
    "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:16Z"
+   "detail": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+   "at": "2026-09-02T03:43:25Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:21Z"
+   "at": "2026-09-02T03:44:10Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:26Z"
+   "at": "2026-09-02T03:44:15Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:31Z"
+   "at": "2026-09-02T03:44:20Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:36Z"
+   "at": "2026-09-02T03:44:25Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:41Z"
+   "at": "2026-09-02T03:44:31Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:47Z"
+   "at": "2026-09-02T03:44:36Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:18:52Z"
+   "at": "2026-09-02T03:44:41Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:19:24Z"
+   "at": "2026-09-02T03:44:46Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-02T03:19:29Z"
+   "at": "2026-09-02T03:44:51Z"
   }
  ],
  "regimes": {}
