@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T00:00:22Z",
+ "generatedAt": "2026-09-05T00:15:55Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 47.4,
-    "vwma20": 79673.3782,
-    "close": 79621.0,
-    "closeVsVwmaPct": -0.07
+    "rsi": 48.0,
+    "vwma20": 79673.1947,
+    "close": 79630.6,
+    "closeVsVwmaPct": -0.05
    },
    "sellTh": 63.7,
-   "candleTs": "2026-09-04T23:45:00Z",
+   "candleTs": "2026-09-05T00:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 79514.0,
@@ -550,6 +550,27 @@
   {
    "symbol": "BTCUSDT",
    "market": "COIN",
+   "tf": "4h",
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 53.7,
+    "vwma20": 79223.0577,
+    "close": 79621.0,
+    "closeVsVwmaPct": 0.5
+   },
+   "sellTh": 64.0,
+   "candleTs": "2026-09-04T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 64171.2,
+    "ts": "2026-08-17T12:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
+  },
+  {
+   "symbol": "BTCUSDT",
+   "market": "COIN",
    "tf": "1D",
    "state": "NEUTRAL",
    "indicators": {
@@ -574,13 +595,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 51.7,
-    "vwma20": 2452.3965,
-    "close": 2454.77,
-    "closeVsVwmaPct": 0.1
+    "rsi": 49.3,
+    "vwma20": 2452.3868,
+    "close": 2453.43,
+    "closeVsVwmaPct": 0.04
    },
    "sellTh": 63.3,
-   "candleTs": "2026-09-04T23:45:00Z",
+   "candleTs": "2026-09-05T00:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 2454.71,
@@ -658,13 +679,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 47.1,
-    "vwma20": 84.3545,
-    "close": 84.36,
-    "closeVsVwmaPct": 0.01
+    "rsi": 46.4,
+    "vwma20": 84.3433,
+    "close": 84.32,
+    "closeVsVwmaPct": -0.03
    },
    "sellTh": 62.7,
-   "candleTs": "2026-09-04T23:45:00Z",
+   "candleTs": "2026-09-05T00:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 85.15,
@@ -737,15 +758,7 @@
    "regime": "BULL"
   }
  ],
- "errors": [
-  {
-   "symbol": "BTCUSDT",
-   "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "bybit 10006 Too many visits. Exceeded the API Rate Limit.",
-   "at": "2026-09-05T00:00:18Z"
-  }
- ],
+ "errors": [],
  "regimes": {
   "NVDA": "BULL",
   "TSLA": "BEAR",
