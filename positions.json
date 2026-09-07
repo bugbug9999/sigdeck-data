@@ -1,25 +1,25 @@
 {
- "fetchedAt": "2026-09-07T00:58:05Z",
+ "fetchedAt": "2026-09-07T01:13:39Z",
  "positions": [
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 81453.60587921,
-   "markPx": 80052.0,
+   "markPx": 79947.7,
    "size": 3.742,
-   "notional": 299554.58,
+   "notional": 299164.29,
    "leverage": "25",
-   "uPnl": -5244.81,
-   "uPnlPct": -1.72
+   "uPnl": -5635.1,
+   "uPnlPct": -1.85
   }
  ],
  "totals": {
-  "uPnl": -5244.81
+  "uPnl": -5635.1
  },
  "equity": {
-  "totalEquity": 309743.37,
+  "totalEquity": 308941.02,
   "usdtBalance": 35368.97,
-  "usdtEquity": 30124.16
+  "usdtEquity": 29733.87
  },
  "stats": {
   "d7": {
@@ -270,17 +270,17 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 12334.45,
-  "pnlPct": 23.34,
+  "equity": 12315.73,
+  "pnlPct": 23.16,
   "positions": [
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 2.0,
     "entryPx": 79714.1,
-    "uPnl": 61.7
+    "uPnl": 42.98
    }
   ],
-  "asOf": "2026-09-07T00:58:05Z"
+  "asOf": "2026-09-07T01:13:39Z"
  }
 }
