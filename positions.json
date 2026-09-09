@@ -1,52 +1,49 @@
 {
- "fetchedAt": "2026-09-09T04:06:12Z",
+ "fetchedAt": "2026-09-09T04:21:50Z",
  "positions": [
-  {
-   "symbol": "ETHUSDT",
-   "side": "LONG",
-   "entryPx": 2499.06792618,
-   "markPx": 2500.26,
-   "size": 20.08,
-   "notional": 50205.22,
-   "leverage": "10",
-   "uPnl": 23.94,
-   "uPnlPct": 0.05
-  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 80058.63594494,
-   "markPx": 78867.31,
+   "markPx": 78794.37,
    "size": 7.556,
-   "notional": 595921.39,
+   "notional": 595370.26,
    "leverage": "25",
-   "uPnl": -9001.66,
-   "uPnlPct": -1.49
+   "uPnl": -9552.79,
+   "uPnlPct": -1.58
   }
  ],
  "totals": {
-  "uPnl": -8977.72
+  "uPnl": -9552.79
  },
  "equity": {
-  "totalEquity": 301277.51,
-  "usdtBalance": 305756.59,
-  "usdtEquity": 296778.87
+  "totalEquity": 300681.22,
+  "usdtBalance": 305742.23,
+  "usdtEquity": 296189.44
  },
  "stats": {
   "d7": {
-   "trades": 35,
+   "trades": 36,
    "wins": 32,
-   "winRate": 91.4,
-   "pnl": 2667.72
+   "winRate": 88.9,
+   "pnl": 2636.98
   },
   "d30": {
-   "trades": 226,
+   "trades": 227,
    "wins": 206,
-   "winRate": 91.2,
-   "pnl": 6359.67
+   "winRate": 90.7,
+   "pnl": 6328.93
   }
  },
  "recentClosed": [
+  {
+   "symbol": "ETHUSDT",
+   "side": "LONG",
+   "pnl": -30.74,
+   "ts": "2026-09-09T04:06:26Z",
+   "entry": 2499.068,
+   "exit": 2499.29
+  },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
@@ -134,18 +131,17 @@
    "ts": "2026-09-06T22:55:43Z",
    "entry": 2498.2,
    "exit": 2507.26
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": 106.08,
-   "ts": "2026-09-06T22:54:50Z",
-   "entry": 86.86,
-   "exit": 87.37
   }
  ],
  "realTrades": {
   "ETHUSDT": [
+   {
+    "side": "LONG",
+    "pnl": -30.74,
+    "ts": "2026-09-09T04:06:26Z",
+    "entry": 2499.068,
+    "exit": 2499.29
+   },
    {
     "side": "LONG",
     "pnl": 65.38,
@@ -180,13 +176,6 @@
     "ts": "2026-09-06T22:55:43Z",
     "entry": 2498.2,
     "exit": 2507.26
-   },
-   {
-    "side": "SHORT",
-    "pnl": 17.28,
-    "ts": "2026-09-03T16:42:28Z",
-    "entry": 2492.2,
-    "exit": 2490.54
    }
   ],
   "HYPEUSDT": [
@@ -306,6 +295,6 @@
     "uPnl": 196.03
    }
   ],
-  "asOf": "2026-09-09T04:06:12Z"
+  "asOf": "2026-09-09T04:21:50Z"
  }
 }
