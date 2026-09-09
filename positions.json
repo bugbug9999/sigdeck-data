@@ -1,47 +1,47 @@
 {
- "fetchedAt": "2026-09-09T21:47:50Z",
+ "fetchedAt": "2026-09-09T22:03:25Z",
  "positions": [
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 85.23,
-   "markPx": 84.754,
+   "markPx": 84.16,
    "size": 469.31,
-   "notional": 39775.9,
+   "notional": 39497.13,
    "leverage": "25",
-   "uPnl": -223.39,
-   "uPnlPct": -0.56
+   "uPnl": -502.16,
+   "uPnlPct": -1.26
   },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2469.07,
-   "markPx": 2462.61,
+   "markPx": 2456.87,
    "size": 18.21,
-   "notional": 44844.13,
+   "notional": 44739.6,
    "leverage": "10",
-   "uPnl": -117.64,
-   "uPnlPct": -0.26
+   "uPnl": -222.16,
+   "uPnlPct": -0.49
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 80058.63594494,
-   "markPx": 78108.3,
+   "markPx": 78031.28,
    "size": 7.556,
-   "notional": 590186.31,
+   "notional": 589604.35,
    "leverage": "25",
-   "uPnl": -14736.74,
-   "uPnlPct": -2.44
+   "uPnl": -15318.7,
+   "uPnlPct": -2.53
   }
  ],
  "totals": {
-  "uPnl": -15077.77
+  "uPnl": -16043.02
  },
  "equity": {
-  "totalEquity": 295013.27,
+  "totalEquity": 294042.5,
   "usdtBalance": 305641.18,
-  "usdtEquity": 290563.41
+  "usdtEquity": 289598.15
  },
  "stats": {
   "d7": {
@@ -51,10 +51,10 @@
    "pnl": 2636.98
   },
   "d30": {
-   "trades": 225,
-   "wins": 204,
-   "winRate": 90.7,
-   "pnl": 5997.71
+   "trades": 224,
+   "wins": 203,
+   "winRate": 90.6,
+   "pnl": 5438.75
   }
  },
  "recentClosed": [
@@ -292,31 +292,31 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 11779.66,
-  "pnlPct": 17.8,
+  "equity": 11566.16,
+  "pnlPct": 15.66,
   "positions": [
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 2.0,
     "entryPx": 79714.1,
-    "uPnl": -151.36
+    "uPnl": -169.27
    },
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 2.0,
     "entryPx": 2489.22,
-    "uPnl": -64.47
+    "uPnl": -99.26
    },
    {
     "symbol": "HYPEUSDT",
     "side": "LONG",
     "lev": 4.0,
     "entryPx": 83.93,
-    "uPnl": 223.59
+    "uPnl": 62.79
    }
   ],
-  "asOf": "2026-09-09T21:47:50Z"
+  "asOf": "2026-09-09T22:03:25Z"
  }
 }
