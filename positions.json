@@ -1,63 +1,71 @@
 {
- "fetchedAt": "2026-09-18T17:11:28Z",
+ "fetchedAt": "2026-09-18T17:27:01Z",
  "positions": [
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "entryPx": 91.47616754,
+   "markPx": 91.06,
+   "size": 876.17,
+   "notional": 79784.04,
+   "leverage": "25",
+   "uPnl": -364.63,
+   "uPnlPct": -0.45
+  },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2593.86,
-   "markPx": 2589.14,
+   "markPx": 2591.23,
    "size": 15.42,
-   "notional": 39924.54,
+   "notional": 39956.77,
    "leverage": "10",
-   "uPnl": -72.78,
-   "uPnlPct": -0.18
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "entryPx": 91.59970202,
-   "markPx": 91.173,
-   "size": 873.88,
-   "notional": 79674.26,
-   "leverage": "25",
-   "uPnl": -372.89,
-   "uPnlPct": -0.47
+   "uPnl": -40.55,
+   "uPnlPct": -0.1
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 80783.0,
-   "markPx": 80745.93,
+   "markPx": 80688.1,
    "size": 0.618,
-   "notional": 49900.98,
+   "notional": 49865.25,
    "leverage": "25",
-   "uPnl": -22.91,
-   "uPnlPct": -0.05
+   "uPnl": -58.65,
+   "uPnlPct": -0.12
   }
  ],
  "totals": {
-  "uPnl": -468.58
+  "uPnl": -463.83
  },
  "equity": {
-  "totalEquity": 319279.97,
-  "usdtBalance": 38007.19,
-  "usdtEquity": 37538.62
+  "totalEquity": 319170.08,
+  "usdtBalance": 38087.68,
+  "usdtEquity": 37623.84
  },
  "stats": {
   "d7": {
-   "trades": 23,
-   "wins": 19,
-   "winRate": 82.6,
-   "pnl": 1652.08
+   "trades": 24,
+   "wins": 20,
+   "winRate": 83.3,
+   "pnl": 1729.93
   },
   "d30": {
-   "trades": 204,
-   "wins": 184,
+   "trades": 205,
+   "wins": 185,
    "winRate": 90.2,
-   "pnl": 10544.93
+   "pnl": 10622.78
   }
  },
  "recentClosed": [
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "pnl": 77.85,
+   "ts": "2026-09-18T17:22:10Z",
+   "entry": 91.47616754,
+   "exit": 91.69
+  },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
@@ -145,17 +153,53 @@
    "ts": "2026-09-18T13:43:21Z",
    "entry": 2505.75,
    "exit": 2536.326
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 251.39,
-   "ts": "2026-09-18T13:42:48Z",
-   "entry": 78034.5,
-   "exit": 79057.2
   }
  ],
  "realTrades": {
+  "HYPEUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 77.85,
+    "ts": "2026-09-18T17:22:10Z",
+    "entry": 91.47616754,
+    "exit": 91.69
+   },
+   {
+    "side": "LONG",
+    "pnl": 0.3,
+    "ts": "2026-09-18T14:23:52Z",
+    "entry": 90.79,
+    "exit": 91.74
+   },
+   {
+    "side": "LONG",
+    "pnl": 207.84,
+    "ts": "2026-09-18T14:23:43Z",
+    "entry": 90.79,
+    "exit": 91.76
+   },
+   {
+    "side": "LONG",
+    "pnl": 81.34,
+    "ts": "2026-09-18T14:12:37Z",
+    "entry": 90.79,
+    "exit": 91.19
+   },
+   {
+    "side": "LONG",
+    "pnl": 3.92,
+    "ts": "2026-09-18T13:32:33Z",
+    "entry": 90.29,
+    "exit": 91.15
+   },
+   {
+    "side": "LONG",
+    "pnl": 360.23,
+    "ts": "2026-09-18T13:32:22Z",
+    "entry": 90.29,
+    "exit": 91.14
+   }
+  ],
   "ETHUSDT": [
    {
     "side": "LONG",
@@ -198,50 +242,6 @@
     "ts": "2026-09-18T13:43:21Z",
     "entry": 2505.75,
     "exit": 2536.326
-   }
-  ],
-  "HYPEUSDT": [
-   {
-    "side": "LONG",
-    "pnl": 0.3,
-    "ts": "2026-09-18T14:23:52Z",
-    "entry": 90.79,
-    "exit": 91.74
-   },
-   {
-    "side": "LONG",
-    "pnl": 207.84,
-    "ts": "2026-09-18T14:23:43Z",
-    "entry": 90.79,
-    "exit": 91.76
-   },
-   {
-    "side": "LONG",
-    "pnl": 81.34,
-    "ts": "2026-09-18T14:12:37Z",
-    "entry": 90.79,
-    "exit": 91.19
-   },
-   {
-    "side": "LONG",
-    "pnl": 3.92,
-    "ts": "2026-09-18T13:32:33Z",
-    "entry": 90.29,
-    "exit": 91.15
-   },
-   {
-    "side": "LONG",
-    "pnl": 360.23,
-    "ts": "2026-09-18T13:32:22Z",
-    "entry": 90.29,
-    "exit": 91.14
-   },
-   {
-    "side": "LONG",
-    "pnl": 0.1,
-    "ts": "2026-09-17T14:27:22Z",
-    "entry": 82.57978594,
-    "exit": 82.83
    }
   ],
   "BTCUSDT": [
@@ -295,6 +295,6 @@
   "equity": 10713.47,
   "pnlPct": 7.13,
   "positions": [],
-  "asOf": "2026-09-18T17:11:28Z"
+  "asOf": "2026-09-18T17:27:01Z"
  }
 }
