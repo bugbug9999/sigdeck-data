@@ -1,25 +1,25 @@
 {
- "fetchedAt": "2026-09-19T12:07:53Z",
+ "fetchedAt": "2026-09-19T12:23:26Z",
  "positions": [
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 92.83938184,
-   "markPx": 92.79,
+   "markPx": 92.835,
    "size": 969.97,
-   "notional": 90003.52,
+   "notional": 90047.16,
    "leverage": "25",
-   "uPnl": -47.9,
-   "uPnlPct": -0.05
+   "uPnl": -4.25,
+   "uPnlPct": -0.0
   }
  ],
  "totals": {
-  "uPnl": -47.9
+  "uPnl": -4.25
  },
  "equity": {
-  "totalEquity": 322931.93,
+  "totalEquity": 322733.34,
   "usdtBalance": 39248.67,
-  "usdtEquity": 39200.77
+  "usdtEquity": 39244.42
  },
  "stats": {
   "d7": {
@@ -29,10 +29,10 @@
    "pnl": 2868.58
   },
   "d30": {
-   "trades": 213,
+   "trades": 212,
    "wins": 193,
-   "winRate": 90.6,
-   "pnl": 13294.36
+   "winRate": 91.0,
+   "pnl": 13912.02
   }
  },
  "recentClosed": [
@@ -273,6 +273,6 @@
   "equity": 10713.47,
   "pnlPct": 7.13,
   "positions": [],
-  "asOf": "2026-09-19T12:07:53Z"
+  "asOf": "2026-09-19T12:23:26Z"
  }
 }
