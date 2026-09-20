@@ -1,41 +1,49 @@
 {
- "fetchedAt": "2026-09-20T16:36:42Z",
+ "fetchedAt": "2026-09-20T16:52:13Z",
  "positions": [
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 90.76,
-   "markPx": 92.9,
-   "size": 275.51,
-   "notional": 25594.88,
+   "markPx": 93.08,
+   "size": 189.55,
+   "notional": 17643.31,
    "leverage": "25",
-   "uPnl": 589.59,
-   "uPnlPct": 2.36
+   "uPnl": 439.76,
+   "uPnlPct": 2.56
   }
  ],
  "totals": {
-  "uPnl": 589.59
+  "uPnl": 439.76
  },
  "equity": {
-  "totalEquity": 323838.66,
-  "usdtBalance": 39585.25,
-  "usdtEquity": 40174.84
+  "totalEquity": 323714.99,
+  "usdtBalance": 39785.11,
+  "usdtEquity": 40226.77
  },
  "stats": {
   "d7": {
-   "trades": 39,
-   "wins": 33,
-   "winRate": 84.6,
-   "pnl": 3198.43
+   "trades": 40,
+   "wins": 34,
+   "winRate": 85.0,
+   "pnl": 3395.66
   },
   "d30": {
-   "trades": 183,
-   "wins": 167,
+   "trades": 184,
+   "wins": 168,
    "winRate": 91.3,
-   "pnl": 11709.26
+   "pnl": 11906.49
   }
  },
  "recentClosed": [
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "pnl": 197.23,
+   "ts": "2026-09-20T16:39:55Z",
+   "entry": 90.76,
+   "exit": 93.1
+  },
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
@@ -123,18 +131,17 @@
    "ts": "2026-09-19T00:34:38Z",
    "entry": 80906.9,
    "exit": 81229.2
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": -0.02,
-   "ts": "2026-09-18T19:13:37Z",
-   "entry": 91.47616755,
-   "exit": 91.5
   }
  ],
  "realTrades": {
   "HYPEUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 197.23,
+    "ts": "2026-09-20T16:39:55Z",
+    "entry": 90.76,
+    "exit": 93.1
+   },
    {
     "side": "LONG",
     "pnl": 0.21,
@@ -169,13 +176,6 @@
     "ts": "2026-09-18T17:22:10Z",
     "entry": 91.47616754,
     "exit": 91.69
-   },
-   {
-    "side": "LONG",
-    "pnl": 0.3,
-    "ts": "2026-09-18T14:23:52Z",
-    "entry": 90.79,
-    "exit": 91.74
    }
   ],
   "BTCUSDT": [
@@ -288,6 +288,6 @@
     "uPnl": 136.06
    }
   ],
-  "asOf": "2026-09-20T16:36:42Z"
+  "asOf": "2026-09-20T16:52:13Z"
  }
 }
