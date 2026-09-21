@@ -1,52 +1,61 @@
 {
- "fetchedAt": "2026-09-21T09:11:22Z",
- "positions": [
+ "fetchedAt": "2026-09-21T09:26:51Z",
+ "positions": [],
+ "totals": {
+  "uPnl": 0
+ },
+ "equity": {
+  "totalEquity": 336639.04,
+  "usdtBalance": 42781.07,
+  "usdtEquity": 42781.07
+ },
+ "stats": {
+  "d7": {
+   "trades": 52,
+   "wins": 44,
+   "winRate": 84.6,
+   "pnl": 6385.79
+  },
+  "d30": {
+   "trades": 173,
+   "wins": 155,
+   "winRate": 89.6,
+   "pnl": 12784.9
+  }
+ },
+ "recentClosed": [
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
-   "entryPx": 92.6,
-   "markPx": 95.49,
-   "size": 297.03,
-   "notional": 28363.39,
-   "leverage": "25",
-   "uPnl": 858.42,
-   "uPnlPct": 3.12
+   "pnl": 0.3,
+   "ts": "2026-09-21T09:16:14Z",
+   "entry": 92.6,
+   "exit": 95.61
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "pnl": 882.43,
+   "ts": "2026-09-21T09:15:54Z",
+   "entry": 92.6,
+   "exit": 95.61
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
-   "entryPx": 81474.39713024,
-   "markPx": 84000.0,
-   "size": 0.275,
-   "notional": 23100.0,
-   "leverage": "25",
-   "uPnl": 694.54,
-   "uPnlPct": 3.1
-  }
- ],
- "totals": {
-  "uPnl": 1552.96
- },
- "equity": {
-  "totalEquity": 335900.88,
-  "usdtBalance": 41227.84,
-  "usdtEquity": 42780.8
- },
- "stats": {
-  "d7": {
-   "trades": 48,
-   "wins": 40,
-   "winRate": 83.3,
-   "pnl": 4845.19
+   "pnl": 2.46,
+   "ts": "2026-09-21T09:15:22Z",
+   "entry": 81474.3972,
+   "exit": 83965.6
   },
-  "d30": {
-   "trades": 169,
-   "wins": 151,
-   "winRate": 89.3,
-   "pnl": 11244.29
-  }
- },
- "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 655.43,
+   "ts": "2026-09-21T09:15:06Z",
+   "entry": 81474.3972,
+   "exit": 83901.1
+  },
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
@@ -110,42 +119,24 @@
    "ts": "2026-09-20T22:08:10Z",
    "entry": 90.76,
    "exit": 93.0
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": 197.23,
-   "ts": "2026-09-20T16:39:55Z",
-   "entry": 90.76,
-   "exit": 93.1
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": 0.21,
-   "ts": "2026-09-19T15:17:06Z",
-   "entry": 92.83938185,
-   "exit": 93.26
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": 329.64,
-   "ts": "2026-09-19T15:16:55Z",
-   "entry": 92.83938184,
-   "exit": 93.21
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 0.15,
-   "ts": "2026-09-19T09:18:58Z",
-   "entry": 81186.8559,
-   "exit": 81374.1
   }
  ],
  "realTrades": {
   "HYPEUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 0.3,
+    "ts": "2026-09-21T09:16:14Z",
+    "entry": 92.6,
+    "exit": 95.61
+   },
+   {
+    "side": "LONG",
+    "pnl": 882.43,
+    "ts": "2026-09-21T09:15:54Z",
+    "entry": 92.6,
+    "exit": 95.61
+   },
    {
     "side": "LONG",
     "pnl": 327.17,
@@ -173,23 +164,23 @@
     "ts": "2026-09-20T23:26:31Z",
     "entry": 93.17,
     "exit": 93.7
-   },
-   {
-    "side": "LONG",
-    "pnl": 17.19,
-    "ts": "2026-09-20T22:27:30Z",
-    "entry": 93.17,
-    "exit": 93.28
-   },
-   {
-    "side": "SHORT",
-    "pnl": -0.0,
-    "ts": "2026-09-20T22:08:22Z",
-    "entry": 93.0,
-    "exit": 93.07
    }
   ],
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 2.46,
+    "ts": "2026-09-21T09:15:22Z",
+    "entry": 81474.3972,
+    "exit": 83965.6
+   },
+   {
+    "side": "LONG",
+    "pnl": 655.43,
+    "ts": "2026-09-21T09:15:06Z",
+    "entry": 81474.3972,
+    "exit": 83901.1
+   },
    {
     "side": "LONG",
     "pnl": 399.79,
@@ -217,20 +208,6 @@
     "ts": "2026-09-19T09:16:20Z",
     "entry": 81186.8559,
     "exit": 81399.3
-   },
-   {
-    "side": "LONG",
-    "pnl": 151.51,
-    "ts": "2026-09-19T00:48:26Z",
-    "entry": 80906.9,
-    "exit": 81241.9
-   },
-   {
-    "side": "LONG",
-    "pnl": 135.45,
-    "ts": "2026-09-19T00:34:38Z",
-    "entry": 80906.9,
-    "exit": 81229.2
    }
   ],
   "ETHUSDT": [
@@ -284,6 +261,6 @@
   "equity": 11173.72,
   "pnlPct": 11.74,
   "positions": [],
-  "asOf": "2026-09-21T09:11:22Z"
+  "asOf": "2026-09-21T09:26:51Z"
  }
 }
