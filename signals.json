@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-22T08:03:04Z",
+ "generatedAt": "2026-09-22T08:18:34Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -509,19 +509,19 @@
    "symbol": "BTCUSDT",
    "market": "COIN",
    "tf": "15m",
-   "state": "ARMED",
+   "state": "LONG",
    "indicators": {
-    "rsi": 42.5,
-    "vwma20": 85415.6004,
-    "close": 85330.0,
-    "closeVsVwmaPct": -0.1
+    "rsi": 47.4,
+    "vwma20": 85407.8839,
+    "close": 85450.6,
+    "closeVsVwmaPct": 0.05
    },
    "sellTh": 70.4,
-   "candleTs": "2026-09-22T07:45:00Z",
+   "candleTs": "2026-09-22T08:00:00Z",
    "lastEvent": {
-    "type": "EXIT",
-    "price": 80870.9,
-    "ts": "2026-09-20T15:45:00Z"
+    "type": "ENTRY",
+    "price": 85450.6,
+    "ts": "2026-09-22T08:00:00Z"
    },
    "stale": false,
    "regime": "BULL"
@@ -595,13 +595,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 39.9,
-    "vwma20": 2730.3279,
-    "close": 2725.3,
-    "closeVsVwmaPct": -0.18
+    "rsi": 46.1,
+    "vwma20": 2730.3476,
+    "close": 2731.16,
+    "closeVsVwmaPct": 0.03
    },
    "sellTh": 66.8,
-   "candleTs": "2026-09-22T07:45:00Z",
+   "candleTs": "2026-09-22T08:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 2733.06,
@@ -679,13 +679,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 62.5,
-    "vwma20": 93.5101,
-    "close": 94.62,
-    "closeVsVwmaPct": 1.19
+    "rsi": 65.3,
+    "vwma20": 93.8383,
+    "close": 94.9,
+    "closeVsVwmaPct": 1.13
    },
    "sellTh": 67.3,
-   "candleTs": "2026-09-22T07:45:00Z",
+   "candleTs": "2026-09-22T08:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 93.41,
