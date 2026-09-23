@@ -1,259 +1,773 @@
 {
- "generatedAt": "2026-09-23T02:35:50Z",
- "signals": [],
- "errors": [
+ "generatedAt": "2026-09-23T02:51:25Z",
+ "signals": [
   {
    "symbol": "NVDA",
+   "market": "US",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:32:51Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 54.0,
+    "vwma20": 229.1067,
+    "close": 228.8699951171875,
+    "closeVsVwmaPct": -0.1
+   },
+   "sellTh": 71.3,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 213.47000122070312,
+    "ts": "2026-09-16T13:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "NVDA",
+   "market": "US",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:32:56Z"
+   "state": "CAUTION",
+   "indicators": {
+    "rsi": 74.7,
+    "vwma20": 225.5862,
+    "close": 228.8699951171875,
+    "closeVsVwmaPct": 1.46
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 222.08999633789062,
+    "ts": "2026-09-18T19:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "NVDA",
+   "market": "US",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:01Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 64.2,
+    "vwma20": 219.4239,
+    "close": 228.8699951171875,
+    "closeVsVwmaPct": 4.3
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T17:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 229.47000122070312,
+    "ts": "2026-09-22T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "NVDA",
+   "market": "US",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:07Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 58.2,
+    "vwma20": 220.029,
+    "close": 227.3800048828125,
+    "closeVsVwmaPct": 3.34
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-21T13:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 196.50999450683594,
+    "ts": "2026-04-14T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "TSLA",
+   "market": "US",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:12Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 58.1,
+    "vwma20": 378.4024,
+    "close": 378.8999938964844,
+    "closeVsVwmaPct": 0.13
+   },
+   "sellTh": 69.5,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 369.6600036621094,
+    "ts": "2026-09-17T13:45:00Z"
+   },
+   "stale": true,
+   "regime": "BEAR"
   },
   {
    "symbol": "TSLA",
+   "market": "US",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:17Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 67.1,
+    "vwma20": 373.5145,
+    "close": 378.8999938964844,
+    "closeVsVwmaPct": 1.44
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 323.1449890136719,
+    "ts": "2026-08-03T14:30:00Z"
+   },
+   "stale": true,
+   "regime": "BEAR"
   },
   {
    "symbol": "TSLA",
+   "market": "US",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:22Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 63.4,
+    "vwma20": 366.1829,
+    "close": 378.8999938964844,
+    "closeVsVwmaPct": 3.47
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T17:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 351.1199951171875,
+    "ts": "2026-08-19T17:30:00Z"
+   },
+   "stale": false,
+   "regime": "BEAR"
   },
   {
    "symbol": "TSLA",
+   "market": "US",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:27Z"
+   "state": "LONG",
+   "indicators": {
+    "rsi": 58.6,
+    "vwma20": 361.2865,
+    "close": 375.29998779296875,
+    "closeVsVwmaPct": 3.88
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-21T13:30:00Z",
+   "lastEvent": {
+    "type": "ENTRY",
+    "price": 332.80999755859375,
+    "ts": "2026-08-11T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BEAR"
   },
   {
    "symbol": "AAPL",
+   "market": "US",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:32Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 40.9,
+    "vwma20": 341.345,
+    "close": 339.75,
+    "closeVsVwmaPct": -0.47
+   },
+   "sellTh": 67.7,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 333.69000244140625,
+    "ts": "2026-09-16T13:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "AAPL",
+   "market": "US",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:37Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 57.4,
+    "vwma20": 338.9096,
+    "close": 339.75,
+    "closeVsVwmaPct": 0.25
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 334.0851135253906,
+    "ts": "2026-09-11T13:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "AAPL",
+   "market": "US",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:42Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 65.2,
+    "vwma20": 330.1103,
+    "close": 339.75,
+    "closeVsVwmaPct": 2.92
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T17:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 324.6499938964844,
+    "ts": "2026-09-01T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "AAPL",
+   "market": "US",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:47Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 66.3,
+    "vwma20": 324.9613,
+    "close": 338.9800109863281,
+    "closeVsVwmaPct": 4.31
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-21T13:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 327.5,
+    "ts": "2026-07-15T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "MSFT",
+   "market": "US",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:52Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 53.9,
+    "vwma20": 496.8851,
+    "close": 498.0,
+    "closeVsVwmaPct": 0.22
+   },
+   "sellTh": 66.4,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 498.9800109863281,
+    "ts": "2026-09-21T17:45:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "MSFT",
+   "market": "US",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:33:57Z"
+   "state": "LONG",
+   "indicators": {
+    "rsi": 53.4,
+    "vwma20": 496.1485,
+    "close": 498.0,
+    "closeVsVwmaPct": 0.37
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "ENTRY",
+    "price": 496.0400085449219,
+    "ts": "2026-09-17T18:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "MSFT",
+   "market": "US",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:03Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 51.3,
+    "vwma20": 497.2512,
+    "close": 498.0,
+    "closeVsVwmaPct": 0.15
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T17:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 455.95001220703125,
+    "ts": "2026-07-30T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "MSFT",
+   "market": "US",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:08Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 57.1,
+    "vwma20": 499.433,
+    "close": 501.6099853515625,
+    "closeVsVwmaPct": 0.44
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-21T13:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 451.1000061035156,
+    "ts": "2026-07-30T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "META",
+   "market": "US",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:13Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 43.6,
+    "vwma20": 743.6081,
+    "close": 736.594970703125,
+    "closeVsVwmaPct": -0.94
+   },
+   "sellTh": 69.2,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 711.7999877929688,
+    "ts": "2026-09-21T13:45:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "META",
+   "market": "US",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:18Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 66.4,
+    "vwma20": 728.0439,
+    "close": 736.594970703125,
+    "closeVsVwmaPct": 1.17
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 563.0534057617188,
+    "ts": "2026-08-25T13:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "META",
+   "market": "US",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:23Z"
+   "state": "CAUTION",
+   "indicators": {
+    "rsi": 78.0,
+    "vwma20": 688.4616,
+    "close": 736.594970703125,
+    "closeVsVwmaPct": 6.99
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T17:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 613.010009765625,
+    "ts": "2026-09-03T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "META",
+   "market": "US",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:28Z"
+   "state": "CAUTION",
+   "indicators": {
+    "rsi": 77.8,
+    "vwma20": 637.0737,
+    "close": 741.25,
+    "closeVsVwmaPct": 16.35
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-21T13:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 653.6900024414062,
+    "ts": "2026-09-09T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "PLTR",
+   "market": "US",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:33Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 64.8,
+    "vwma20": 184.3997,
+    "close": 184.99000549316406,
+    "closeVsVwmaPct": 0.32
+   },
+   "sellTh": 67.2,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 176.58999633789062,
+    "ts": "2026-09-17T13:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "PLTR",
+   "market": "US",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:38Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 69.2,
+    "vwma20": 181.6856,
+    "close": 184.99000549316406,
+    "closeVsVwmaPct": 1.82
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 173.34010314941406,
+    "ts": "2026-09-14T15:30:00Z"
+   },
+   "stale": true,
+   "regime": "BULL"
   },
   {
    "symbol": "PLTR",
+   "market": "US",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:43Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 66.8,
+    "vwma20": 174.5968,
+    "close": 184.99000549316406,
+    "closeVsVwmaPct": 5.95
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-22T17:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 137.72500610351562,
+    "ts": "2026-07-07T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "PLTR",
+   "market": "US",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:49Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 61.1,
+    "vwma20": 176.5543,
+    "close": 183.08999633789062,
+    "closeVsVwmaPct": 3.7
+   },
+   "sellTh": 65.0,
+   "candleTs": "2026-09-21T13:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 162.66000366210938,
+    "ts": "2026-08-04T13:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "BTCUSDT",
+   "market": "COIN",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:54Z"
+   "state": "LONG",
+   "indicators": {
+    "rsi": 53.5,
+    "vwma20": 86325.5345,
+    "close": 86434.0,
+    "closeVsVwmaPct": 0.13
+   },
+   "sellTh": 70.4,
+   "candleTs": "2026-09-23T02:30:00Z",
+   "lastEvent": {
+    "type": "ENTRY",
+    "price": 85450.6,
+    "ts": "2026-09-22T08:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "BTCUSDT",
+   "market": "COIN",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:34:59Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 59.2,
+    "vwma20": 86182.6764,
+    "close": 86315.0,
+    "closeVsVwmaPct": 0.15
+   },
+   "sellTh": 67.2,
+   "candleTs": "2026-09-23T01:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 76945.5,
+    "ts": "2026-09-18T02:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "BTCUSDT",
+   "market": "COIN",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:04Z"
+   "state": "CAUTION",
+   "indicators": {
+    "rsi": 74.5,
+    "vwma20": 84427.2252,
+    "close": 86168.1,
+    "closeVsVwmaPct": 2.06
+   },
+   "sellTh": 66.6,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 80705.4,
+    "ts": "2026-09-18T12:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "BTCUSDT",
+   "market": "COIN",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:09Z"
+   "state": "CAUTION",
+   "indicators": {
+    "rsi": 72.2,
+    "vwma20": 79775.8854,
+    "close": 86168.1,
+    "closeVsVwmaPct": 8.01
+   },
+   "sellTh": 66.2,
+   "candleTs": "2026-09-22T00:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 69305.0,
+    "ts": "2026-08-19T00:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "ETHUSDT",
+   "market": "COIN",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:14Z"
+   "state": "LONG",
+   "indicators": {
+    "rsi": 51.4,
+    "vwma20": 2755.6687,
+    "close": 2756.3,
+    "closeVsVwmaPct": 0.02
+   },
+   "sellTh": 66.8,
+   "candleTs": "2026-09-23T02:30:00Z",
+   "lastEvent": {
+    "type": "ENTRY",
+    "price": 2733.06,
+    "ts": "2026-09-22T06:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "ETHUSDT",
+   "market": "COIN",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:19Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 55.7,
+    "vwma20": 2747.6977,
+    "close": 2752.7,
+    "closeVsVwmaPct": 0.18
+   },
+   "sellTh": 68.2,
+   "candleTs": "2026-09-23T01:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 2638.81,
+    "ts": "2026-09-20T16:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "ETHUSDT",
+   "market": "COIN",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:24Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 69.7,
+    "vwma20": 2696.9811,
+    "close": 2752.84,
+    "closeVsVwmaPct": 2.07
+   },
+   "sellTh": 67.9,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 2583.75,
+    "ts": "2026-09-18T12:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "ETHUSDT",
+   "market": "COIN",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:29Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 69.8,
+    "vwma20": 2532.0857,
+    "close": 2752.84,
+    "closeVsVwmaPct": 8.72
+   },
+   "sellTh": 66.2,
+   "candleTs": "2026-09-22T00:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 1916.95,
+    "ts": "2026-07-15T00:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "HYPEUSDT",
+   "market": "COIN",
    "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:34Z"
+   "state": "LONG",
+   "indicators": {
+    "rsi": 51.7,
+    "vwma20": 97.1322,
+    "close": 97.0,
+    "closeVsVwmaPct": -0.14
+   },
+   "sellTh": 67.3,
+   "candleTs": "2026-09-23T02:30:00Z",
+   "lastEvent": {
+    "type": "ENTRY",
+    "price": 93.41,
+    "ts": "2026-09-21T19:30:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "HYPEUSDT",
+   "market": "COIN",
    "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:40Z"
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 64.3,
+    "vwma20": 95.9714,
+    "close": 97.12,
+    "closeVsVwmaPct": 1.2
+   },
+   "sellTh": 65.8,
+   "candleTs": "2026-09-23T01:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 80.33,
+    "ts": "2026-09-17T08:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "HYPEUSDT",
+   "market": "COIN",
    "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:45Z"
+   "state": "CAUTION",
+   "indicators": {
+    "rsi": 70.5,
+    "vwma20": 93.8451,
+    "close": 97.19,
+    "closeVsVwmaPct": 3.56
+   },
+   "sellTh": 66.9,
+   "candleTs": "2026-09-22T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 83.21,
+    "ts": "2026-09-17T16:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   },
   {
    "symbol": "HYPEUSDT",
+   "market": "COIN",
    "tf": "1D",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-23T02:35:50Z"
+   "state": "CAUTION",
+   "indicators": {
+    "rsi": 70.5,
+    "vwma20": 84.9082,
+    "close": 97.19,
+    "closeVsVwmaPct": 14.46
+   },
+   "sellTh": 67.3,
+   "candleTs": "2026-09-22T00:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 69.73,
+    "ts": "2026-08-19T00:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
   }
  ],
- "regimes": {}
+ "errors": [],
+ "regimes": {
+  "NVDA": "BULL",
+  "TSLA": "BEAR",
+  "AAPL": "BULL",
+  "MSFT": "BULL",
+  "META": "BULL",
+  "PLTR": "BULL",
+  "BTCUSDT": "BULL",
+  "ETHUSDT": "BULL",
+  "HYPEUSDT": "BULL"
+ }
 }
