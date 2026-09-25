@@ -1,52 +1,60 @@
 {
- "fetchedAt": "2026-09-25T10:58:52Z",
+ "fetchedAt": "2026-09-25T11:14:41Z",
  "positions": [
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2703.58327022,
-   "markPx": 2712.17,
-   "size": 40.67,
-   "notional": 110303.95,
+   "markPx": 2740.04,
+   "size": 15.06,
+   "notional": 41265.0,
    "leverage": "10",
-   "uPnl": 349.22,
-   "uPnlPct": 0.32
+   "uPnl": 549.04,
+   "uPnlPct": 1.35
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 85467.15391744,
-   "markPx": 84673.53,
+   "markPx": 85167.1,
    "size": 2.374,
-   "notional": 201014.96,
+   "notional": 202186.7,
    "leverage": "25",
-   "uPnl": -1884.06,
-   "uPnlPct": -0.93
+   "uPnl": -712.33,
+   "uPnlPct": -0.35
   }
  ],
  "totals": {
-  "uPnl": -1534.84
+  "uPnl": -163.29
  },
  "equity": {
-  "totalEquity": 339360.94,
-  "usdtBalance": 45382.07,
-  "usdtEquity": 43847.22
+  "totalEquity": 343147.88,
+  "usdtBalance": 46106.31,
+  "usdtEquity": 45943.02
  },
  "stats": {
   "d7": {
-   "trades": 52,
-   "wins": 48,
-   "winRate": 92.3,
-   "pnl": 9582.14
+   "trades": 53,
+   "wins": 49,
+   "winRate": 92.5,
+   "pnl": 10284.18
   },
   "d30": {
-   "trades": 144,
-   "wins": 129,
-   "winRate": 89.6,
-   "pnl": 10815.76
+   "trades": 145,
+   "wins": 130,
+   "winRate": 89.7,
+   "pnl": 11517.8
   }
  },
  "recentClosed": [
+  {
+   "symbol": "ETHUSDT",
+   "side": "LONG",
+   "pnl": 702.04,
+   "ts": "2026-09-25T11:10:53Z",
+   "entry": 2703.5833,
+   "exit": 2732.3
+  },
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
@@ -134,17 +142,53 @@
    "ts": "2026-09-21T09:15:54Z",
    "entry": 92.6,
    "exit": 95.61
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 2.46,
-   "ts": "2026-09-21T09:15:22Z",
-   "entry": 81474.3972,
-   "exit": 83965.6
   }
  ],
  "realTrades": {
+  "ETHUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 702.04,
+    "ts": "2026-09-25T11:10:53Z",
+    "entry": 2703.5833,
+    "exit": 2732.3
+   },
+   {
+    "side": "LONG",
+    "pnl": 0.11,
+    "ts": "2026-09-19T05:17:49Z",
+    "entry": 2613.67,
+    "exit": 2625.83
+   },
+   {
+    "side": "LONG",
+    "pnl": 165.77,
+    "ts": "2026-09-19T05:17:40Z",
+    "entry": 2613.67,
+    "exit": 2625.35
+   },
+   {
+    "side": "LONG",
+    "pnl": 0.42,
+    "ts": "2026-09-19T02:59:34Z",
+    "entry": 2612.69,
+    "exit": 2622.56
+   },
+   {
+    "side": "LONG",
+    "pnl": 129.2,
+    "ts": "2026-09-19T02:59:19Z",
+    "entry": 2612.69,
+    "exit": 2622.0
+   },
+   {
+    "side": "LONG",
+    "pnl": 216.31,
+    "ts": "2026-09-18T18:29:39Z",
+    "entry": 2593.86,
+    "exit": 2608.72
+   }
+  ],
   "HYPEUSDT": [
    {
     "side": "LONG",
@@ -232,73 +276,29 @@
     "entry": 81474.3972,
     "exit": 83965.6
    }
-  ],
-  "ETHUSDT": [
-   {
-    "side": "LONG",
-    "pnl": 0.11,
-    "ts": "2026-09-19T05:17:49Z",
-    "entry": 2613.67,
-    "exit": 2625.83
-   },
-   {
-    "side": "LONG",
-    "pnl": 165.77,
-    "ts": "2026-09-19T05:17:40Z",
-    "entry": 2613.67,
-    "exit": 2625.35
-   },
-   {
-    "side": "LONG",
-    "pnl": 0.42,
-    "ts": "2026-09-19T02:59:34Z",
-    "entry": 2612.69,
-    "exit": 2622.56
-   },
-   {
-    "side": "LONG",
-    "pnl": 129.2,
-    "ts": "2026-09-19T02:59:19Z",
-    "entry": 2612.69,
-    "exit": 2622.0
-   },
-   {
-    "side": "LONG",
-    "pnl": 216.31,
-    "ts": "2026-09-18T18:29:39Z",
-    "entry": 2593.86,
-    "exit": 2608.72
-   },
-   {
-    "side": "LONG",
-    "pnl": 0.3,
-    "ts": "2026-09-18T16:18:08Z",
-    "entry": 2578.63,
-    "exit": 2595.18
-   }
   ]
  },
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 10658.53,
-  "pnlPct": 6.59,
+  "equity": 10706.3,
+  "pnlPct": 7.06,
   "positions": [
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2656.64,
-    "uPnl": 175.48
+    "uPnl": 210.85
    },
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 2.0,
     "entryPx": 84050.0,
-    "uPnl": 40.34
+    "uPnl": 52.75
    }
   ],
-  "asOf": "2026-09-25T10:58:52Z"
+  "asOf": "2026-09-25T11:14:41Z"
  }
 }
