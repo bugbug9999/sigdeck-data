@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25T01:35:31Z",
+ "generatedAt": "2026-09-25T01:51:33Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -508,6 +508,69 @@
   {
    "symbol": "BTCUSDT",
    "market": "COIN",
+   "tf": "15m",
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 52.1,
+    "vwma20": 84375.1018,
+    "close": 84444.1,
+    "closeVsVwmaPct": 0.08
+   },
+   "sellTh": 70.5,
+   "candleTs": "2026-09-25T01:30:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 84829.2,
+    "ts": "2026-09-24T14:15:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
+  },
+  {
+   "symbol": "BTCUSDT",
+   "market": "COIN",
+   "tf": "1h",
+   "state": "LONG",
+   "indicators": {
+    "rsi": 54.0,
+    "vwma20": 83969.5213,
+    "close": 84557.8,
+    "closeVsVwmaPct": 0.7
+   },
+   "sellTh": 66.9,
+   "candleTs": "2026-09-25T00:00:00Z",
+   "lastEvent": {
+    "type": "ENTRY",
+    "price": 84465.8,
+    "ts": "2026-09-24T07:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
+  },
+  {
+   "symbol": "BTCUSDT",
+   "market": "COIN",
+   "tf": "4h",
+   "state": "NEUTRAL",
+   "indicators": {
+    "rsi": 53.2,
+    "vwma20": 85142.113,
+    "close": 84367.0,
+    "closeVsVwmaPct": -0.91
+   },
+   "sellTh": 66.8,
+   "candleTs": "2026-09-24T20:00:00Z",
+   "lastEvent": {
+    "type": "EXIT",
+    "price": 80705.4,
+    "ts": "2026-09-18T12:00:00Z"
+   },
+   "stale": false,
+   "regime": "BULL"
+  },
+  {
+   "symbol": "BTCUSDT",
+   "market": "COIN",
    "tf": "1D",
    "state": "NEUTRAL",
    "indicators": {
@@ -532,13 +595,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 51.5,
-    "vwma20": 2687.4635,
-    "close": 2687.59,
-    "closeVsVwmaPct": 0.0
+    "rsi": 49.2,
+    "vwma20": 2687.3729,
+    "close": 2685.51,
+    "closeVsVwmaPct": -0.07
    },
    "sellTh": 66.6,
-   "candleTs": "2026-09-25T01:15:00Z",
+   "candleTs": "2026-09-25T01:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 2692.94,
@@ -616,13 +679,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 39.4,
-    "vwma20": 92.3667,
-    "close": 91.57,
-    "closeVsVwmaPct": -0.86
+    "rsi": 36.7,
+    "vwma20": 92.2195,
+    "close": 91.3,
+    "closeVsVwmaPct": -1.0
    },
    "sellTh": 64.9,
-   "candleTs": "2026-09-25T01:15:00Z",
+   "candleTs": "2026-09-25T01:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 93.41,
@@ -695,29 +758,7 @@
    "regime": "BULL"
   }
  ],
- "errors": [
-  {
-   "symbol": "BTCUSDT",
-   "tf": "15m",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-25T01:35:13Z"
-  },
-  {
-   "symbol": "BTCUSDT",
-   "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-25T01:35:18Z"
-  },
-  {
-   "symbol": "BTCUSDT",
-   "tf": "4h",
-   "code": "FETCH_FAIL",
-   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-09-25T01:35:23Z"
-  }
- ],
+ "errors": [],
  "regimes": {
   "NVDA": "BULL",
   "TSLA": "BEAR",
