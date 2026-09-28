@@ -1,63 +1,71 @@
 {
- "fetchedAt": "2026-09-28T17:03:53Z",
+ "fetchedAt": "2026-09-28T17:19:26Z",
  "positions": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "entryPx": 84079.39690609,
+   "markPx": 84028.8,
+   "size": 1.709,
+   "notional": 143605.22,
+   "leverage": "25",
+   "uPnl": -86.47,
+   "uPnlPct": -0.06
+  },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2706.0,
-   "markPx": 2682.44,
+   "markPx": 2709.75,
    "size": 24.02,
-   "notional": 64432.21,
+   "notional": 65088.19,
    "leverage": "10",
-   "uPnl": -565.91,
-   "uPnlPct": -0.87
+   "uPnl": 90.08,
+   "uPnlPct": 0.14
   },
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 91.15,
-   "markPx": 88.651,
+   "markPx": 89.26,
    "size": 329.3,
-   "notional": 29192.77,
+   "notional": 29393.32,
    "leverage": "25",
-   "uPnl": -822.92,
-   "uPnlPct": -2.74
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "entryPx": 84079.39690609,
-   "markPx": 83578.41,
-   "size": 8.242,
-   "notional": 688853.26,
-   "leverage": "25",
-   "uPnl": -4129.13,
-   "uPnlPct": -0.6
+   "uPnl": -622.38,
+   "uPnlPct": -2.07
   }
  ],
  "totals": {
-  "uPnl": -5517.96
+  "uPnl": -618.77
  },
  "equity": {
-  "totalEquity": 331038.63,
-  "usdtBalance": 336264.91,
-  "usdtEquity": 330746.95
+  "totalEquity": 336483.23,
+  "usdtBalance": 336827.63,
+  "usdtEquity": 336208.86
  },
  "stats": {
   "d7": {
    "trades": 14,
    "wins": 14,
    "winRate": 100.0,
-   "pnl": 3929.13
+   "pnl": 3592.63
   },
   "d30": {
-   "trades": 139,
-   "wins": 127,
+   "trades": 140,
+   "wins": 128,
    "winRate": 91.4,
-   "pnl": 15957.78
+   "pnl": 16305.73
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 347.95,
+   "ts": "2026-09-28T17:14:09Z",
+   "entry": 84079.397,
+   "exit": 84179.0
+  },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
@@ -145,17 +153,53 @@
    "ts": "2026-09-22T17:44:14Z",
    "entry": 85999.764,
    "exit": 86439.8
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": 0.01,
-   "ts": "2026-09-21T23:19:58Z",
-   "entry": 92.93,
-   "exit": 94.08
   }
  ],
  "realTrades": {
+  "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 347.95,
+    "ts": "2026-09-28T17:14:09Z",
+    "entry": 84079.397,
+    "exit": 84179.0
+   },
+   {
+    "side": "LONG",
+    "pnl": 125.51,
+    "ts": "2026-09-23T02:45:36Z",
+    "entry": 86189.8,
+    "exit": 86466.9
+   },
+   {
+    "side": "LONG",
+    "pnl": 0.37,
+    "ts": "2026-09-22T17:47:48Z",
+    "entry": 85999.764,
+    "exit": 86409.6
+   },
+   {
+    "side": "LONG",
+    "pnl": 293.73,
+    "ts": "2026-09-22T17:46:55Z",
+    "entry": 85999.764,
+    "exit": 86378.4977
+   },
+   {
+    "side": "LONG",
+    "pnl": 321.47,
+    "ts": "2026-09-22T17:44:14Z",
+    "entry": 85999.764,
+    "exit": 86439.8
+   },
+   {
+    "side": "LONG",
+    "pnl": 684.45,
+    "ts": "2026-09-21T17:18:45Z",
+    "entry": 84331.3,
+    "exit": 85740.0
+   }
+  ],
   "ETHUSDT": [
    {
     "side": "LONG",
@@ -243,50 +287,6 @@
     "entry": 92.93,
     "exit": 94.06
    }
-  ],
-  "BTCUSDT": [
-   {
-    "side": "LONG",
-    "pnl": 125.51,
-    "ts": "2026-09-23T02:45:36Z",
-    "entry": 86189.8,
-    "exit": 86466.9
-   },
-   {
-    "side": "LONG",
-    "pnl": 0.37,
-    "ts": "2026-09-22T17:47:48Z",
-    "entry": 85999.764,
-    "exit": 86409.6
-   },
-   {
-    "side": "LONG",
-    "pnl": 293.73,
-    "ts": "2026-09-22T17:46:55Z",
-    "entry": 85999.764,
-    "exit": 86378.4977
-   },
-   {
-    "side": "LONG",
-    "pnl": 321.47,
-    "ts": "2026-09-22T17:44:14Z",
-    "entry": 85999.764,
-    "exit": 86439.8
-   },
-   {
-    "side": "LONG",
-    "pnl": 684.45,
-    "ts": "2026-09-21T17:18:45Z",
-    "entry": 84331.3,
-    "exit": 85740.0
-   },
-   {
-    "side": "LONG",
-    "pnl": 2.46,
-    "ts": "2026-09-21T09:15:22Z",
-    "entry": 81474.3972,
-    "exit": 83965.6
-   }
   ]
  },
  "error": null,
@@ -317,6 +317,6 @@
     "uPnl": -31.56
    }
   ],
-  "asOf": "2026-09-28T17:03:53Z"
+  "asOf": "2026-09-28T17:19:26Z"
  }
 }
