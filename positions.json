@@ -1,47 +1,47 @@
 {
- "fetchedAt": "2026-09-28T15:46:14Z",
+ "fetchedAt": "2026-09-28T16:01:47Z",
  "positions": [
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "entryPx": 91.15,
-   "markPx": 87.87,
-   "size": 329.3,
-   "notional": 28935.59,
-   "leverage": "25",
-   "uPnl": -1080.1,
-   "uPnlPct": -3.6
-  },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2706.0,
-   "markPx": 2673.44,
+   "markPx": 2675.27,
    "size": 24.02,
-   "notional": 64216.03,
+   "notional": 64259.99,
    "leverage": "10",
-   "uPnl": -782.09,
-   "uPnlPct": -1.2
+   "uPnl": -738.13,
+   "uPnlPct": -1.14
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "entryPx": 91.15,
+   "markPx": 88.28,
+   "size": 329.3,
+   "notional": 29070.6,
+   "leverage": "25",
+   "uPnl": -945.09,
+   "uPnlPct": -3.15
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 84079.39690609,
-   "markPx": 83177.1,
+   "markPx": 83342.7,
    "size": 8.242,
-   "notional": 685545.66,
+   "notional": 686910.53,
    "leverage": "25",
-   "uPnl": -7436.73,
-   "uPnlPct": -1.07
+   "uPnl": -6071.86,
+   "uPnlPct": -0.88
   }
  ],
  "totals": {
-  "uPnl": -9298.92
+  "uPnl": -7755.08
  },
  "equity": {
-  "totalEquity": 327267.26,
-  "usdtBalance": 336300.7,
-  "usdtEquity": 327001.78
+  "totalEquity": 328919.71,
+  "usdtBalance": 336264.91,
+  "usdtEquity": 328650.54
  },
  "stats": {
   "d7": {
@@ -292,31 +292,31 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 10036.23,
-  "pnlPct": 0.36,
+  "equity": 10161.58,
+  "pnlPct": 1.62,
   "positions": [
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 2.0,
     "entryPx": 84050.0,
-    "uPnl": -88.06
+    "uPnl": -60.22
    },
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2693.82,
-    "uPnl": -102.85
+    "uPnl": -64.15
    },
    {
     "symbol": "HYPEUSDT",
     "side": "LONG",
     "lev": 2.0,
     "entryPx": 89.23,
-    "uPnl": -129.1
+    "uPnl": -70.29
    }
   ],
-  "asOf": "2026-09-28T15:46:14Z"
+  "asOf": "2026-09-28T16:01:47Z"
  }
 }
