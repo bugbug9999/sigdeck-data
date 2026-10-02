@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T22:19:00Z",
+ "generatedAt": "2026-10-02T22:34:32Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 42.9,
-    "vwma20": 84356.9094,
-    "close": 84488.3,
-    "closeVsVwmaPct": 0.16
+    "rsi": 42.5,
+    "vwma20": 84317.7474,
+    "close": 84475.0,
+    "closeVsVwmaPct": 0.19
    },
    "sellTh": 63.9,
-   "candleTs": "2026-10-02T22:00:00Z",
+   "candleTs": "2026-10-02T22:15:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 84471.0,
@@ -595,13 +595,13 @@
    "tf": "15m",
    "state": "ARMED",
    "indicators": {
-    "rsi": 34.2,
-    "vwma20": 2665.3839,
-    "close": 2660.79,
-    "closeVsVwmaPct": -0.17
+    "rsi": 38.2,
+    "vwma20": 2664.2016,
+    "close": 2664.0,
+    "closeVsVwmaPct": -0.01
    },
    "sellTh": 63.9,
-   "candleTs": "2026-10-02T22:00:00Z",
+   "candleTs": "2026-10-02T22:15:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 2714.94,
@@ -677,19 +677,19 @@
    "symbol": "HYPEUSDT",
    "market": "COIN",
    "tf": "15m",
-   "state": "ARMED",
+   "state": "LONG",
    "indicators": {
-    "rsi": 32.7,
-    "vwma20": 87.1525,
-    "close": 86.31,
-    "closeVsVwmaPct": -0.97
+    "rsi": 47.8,
+    "vwma20": 87.1071,
+    "close": 87.26,
+    "closeVsVwmaPct": 0.18
    },
    "sellTh": 62.7,
-   "candleTs": "2026-10-02T22:00:00Z",
+   "candleTs": "2026-10-02T22:15:00Z",
    "lastEvent": {
-    "type": "EXIT",
-    "price": 88.63,
-    "ts": "2026-10-02T02:45:00Z"
+    "type": "ENTRY",
+    "price": 87.26,
+    "ts": "2026-10-02T22:15:00Z"
    },
    "stale": false,
    "regime": "BULL"
