@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T01:29:44Z",
+ "generatedAt": "2026-10-04T01:45:15Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -508,27 +508,6 @@
   {
    "symbol": "BTCUSDT",
    "market": "COIN",
-   "tf": "15m",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 47.7,
-    "vwma20": 84716.6465,
-    "close": 84737.6,
-    "closeVsVwmaPct": 0.02
-   },
-   "sellTh": 64.4,
-   "candleTs": "2026-10-04T01:00:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 84809.4,
-    "ts": "2026-10-03T12:15:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "BTCUSDT",
-   "market": "COIN",
    "tf": "1h",
    "state": "NEUTRAL",
    "indicators": {
@@ -595,13 +574,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 68.4,
-    "vwma20": 2687.9614,
-    "close": 2692.7,
-    "closeVsVwmaPct": 0.18
+    "rsi": 61.2,
+    "vwma20": 2688.2059,
+    "close": 2691.42,
+    "closeVsVwmaPct": 0.12
    },
-   "sellTh": 64.3,
-   "candleTs": "2026-10-04T01:00:00Z",
+   "sellTh": 64.5,
+   "candleTs": "2026-10-04T01:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 2687.73,
@@ -679,13 +658,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 56.8,
-    "vwma20": 89.3962,
-    "close": 89.47,
-    "closeVsVwmaPct": 0.08
+    "rsi": 59.9,
+    "vwma20": 89.4098,
+    "close": 89.58,
+    "closeVsVwmaPct": 0.19
    },
-   "sellTh": 63.4,
-   "candleTs": "2026-10-04T01:00:00Z",
+   "sellTh": 63.2,
+   "candleTs": "2026-10-04T01:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 88.95,
@@ -758,7 +737,15 @@
    "regime": "BULL"
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "symbol": "BTCUSDT",
+   "tf": "15m",
+   "code": "FETCH_FAIL",
+   "detail": "bybit 10006 Too many visits. Exceeded the API Rate Limit.",
+   "at": "2026-10-04T01:45:10Z"
+  }
+ ],
  "regimes": {
   "NVDA": "BULL",
   "TSLA": "BEAR",
