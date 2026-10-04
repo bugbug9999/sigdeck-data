@@ -1,41 +1,37 @@
 {
- "fetchedAt": "2026-10-04T10:17:09Z",
- "positions": [
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "entryPx": 90.48,
-   "markPx": 90.695,
-   "size": 2.68,
-   "notional": 243.06,
-   "leverage": "25",
-   "uPnl": 0.58,
-   "uPnlPct": 0.24
-  }
- ],
+ "fetchedAt": "2026-10-04T10:32:40Z",
+ "positions": [],
  "totals": {
-  "uPnl": 0.58
+  "uPnl": 0
  },
  "equity": {
-  "totalEquity": 348239.69,
-  "usdtBalance": 50868.66,
-  "usdtEquity": 50869.23
+  "totalEquity": 348518.51,
+  "usdtBalance": 50869.02,
+  "usdtEquity": 50869.02
  },
  "stats": {
   "d7": {
-   "trades": 38,
-   "wins": 34,
-   "winRate": 89.5,
-   "pnl": 6417.41
+   "trades": 39,
+   "wins": 35,
+   "winRate": 89.7,
+   "pnl": 6417.73
   },
   "d30": {
-   "trades": 119,
-   "wins": 105,
-   "winRate": 88.2,
-   "pnl": 17776.45
+   "trades": 120,
+   "wins": 106,
+   "winRate": 88.3,
+   "pnl": 17776.78
   }
  },
  "recentClosed": [
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "pnl": 0.33,
+   "ts": "2026-10-04T10:32:02Z",
+   "entry": 90.48,
+   "exit": 90.65
+  },
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
@@ -123,18 +119,17 @@
    "ts": "2026-10-02T03:21:12Z",
    "entry": 88.02735717,
    "exit": 88.75
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "pnl": 240.57,
-   "ts": "2026-10-02T03:20:55Z",
-   "entry": 88.02735716,
-   "exit": 88.73481981
   }
  ],
  "realTrades": {
   "HYPEUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 0.33,
+    "ts": "2026-10-04T10:32:02Z",
+    "entry": 90.48,
+    "exit": 90.65
+   },
    {
     "side": "LONG",
     "pnl": 56.33,
@@ -169,13 +164,6 @@
     "ts": "2026-10-02T03:20:55Z",
     "entry": 88.02735716,
     "exit": 88.73481981
-   },
-   {
-    "side": "LONG",
-    "pnl": 290.9,
-    "ts": "2026-10-02T03:13:53Z",
-    "entry": 88.02735716,
-    "exit": 88.9
    }
   ],
   "ETHUSDT": [
@@ -273,6 +261,6 @@
   "equity": 10805.7,
   "pnlPct": 8.06,
   "positions": [],
-  "asOf": "2026-10-04T10:17:09Z"
+  "asOf": "2026-10-04T10:32:40Z"
  }
 }
