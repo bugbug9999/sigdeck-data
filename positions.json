@@ -1,13 +1,25 @@
 {
- "fetchedAt": "2026-10-05T14:13:25Z",
- "positions": [],
+ "fetchedAt": "2026-10-05T14:28:54Z",
+ "positions": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "entryPx": 86356.0,
+   "markPx": 86243.7,
+   "size": 1.205,
+   "notional": 103923.66,
+   "leverage": "25",
+   "uPnl": -135.32,
+   "uPnlPct": -0.13
+  }
+ ],
  "totals": {
-  "uPnl": 0
+  "uPnl": -135.32
  },
  "equity": {
-  "totalEquity": 354710.76,
-  "usdtBalance": 52685.46,
-  "usdtEquity": 52685.46
+  "totalEquity": 353268.4,
+  "usdtBalance": 52668.81,
+  "usdtEquity": 52533.49
  },
  "stats": {
   "d7": {
@@ -276,6 +288,6 @@
     "uPnl": -21.55
    }
   ],
-  "asOf": "2026-10-05T14:13:25Z"
+  "asOf": "2026-10-05T14:28:54Z"
  }
 }
