@@ -1,41 +1,37 @@
 {
- "fetchedAt": "2026-10-05T01:17:04Z",
- "positions": [
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "entryPx": 85229.5,
-   "markPx": 86694.6,
-   "size": 0.415,
-   "notional": 35978.26,
-   "leverage": "25",
-   "uPnl": 608.02,
-   "uPnlPct": 1.72
-  }
- ],
+ "fetchedAt": "2026-10-05T01:32:36Z",
+ "positions": [],
  "totals": {
-  "uPnl": 608.02
+  "uPnl": 0
  },
  "equity": {
-  "totalEquity": 354328.26,
-  "usdtBalance": 51405.3,
-  "usdtEquity": 52013.31
+  "totalEquity": 354401.68,
+  "usdtBalance": 52025.52,
+  "usdtEquity": 52025.52
  },
  "stats": {
   "d7": {
-   "trades": 46,
-   "wins": 41,
-   "winRate": 89.1,
-   "pnl": 6962.8
+   "trades": 47,
+   "wins": 42,
+   "winRate": 89.4,
+   "pnl": 7574.24
   },
   "d30": {
-   "trades": 127,
-   "wins": 112,
-   "winRate": 88.2,
-   "pnl": 18321.85
+   "trades": 128,
+   "wins": 113,
+   "winRate": 88.3,
+   "pnl": 18933.28
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 611.43,
+   "ts": "2026-10-05T01:23:06Z",
+   "entry": 85229.5,
+   "exit": 86737.9
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -123,18 +119,17 @@
    "ts": "2026-10-04T02:08:15Z",
    "entry": 2676.6515,
    "exit": 2691.856
-  },
-  {
-   "symbol": "ETHUSDT",
-   "side": "LONG",
-   "pnl": 145.11,
-   "ts": "2026-10-03T23:36:57Z",
-   "entry": 2676.6515,
-   "exit": 2687.25
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 611.43,
+    "ts": "2026-10-05T01:23:06Z",
+    "entry": 85229.5,
+    "exit": 86737.9
+   },
    {
     "side": "LONG",
     "pnl": 407.66,
@@ -169,13 +164,6 @@
     "ts": "2026-10-04T13:54:06Z",
     "entry": 85157.5723,
     "exit": 85230.3673
-   },
-   {
-    "side": "LONG",
-    "pnl": 57.34,
-    "ts": "2026-10-04T13:26:02Z",
-    "entry": 85105.0293,
-    "exit": 85173.0
    }
   ],
   "HYPEUSDT": [
@@ -273,6 +261,6 @@
   "equity": 10805.7,
   "pnlPct": 8.06,
   "positions": [],
-  "asOf": "2026-10-05T01:17:04Z"
+  "asOf": "2026-10-05T01:32:36Z"
  }
 }
