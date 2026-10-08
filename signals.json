@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:29:48Z",
+ "generatedAt": "2026-10-08T17:45:20Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -7,13 +7,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 26.5,
-    "vwma20": 235.1845,
-    "close": 232.21499633789062,
-    "closeVsVwmaPct": -1.26
+    "rsi": 21.3,
+    "vwma20": 234.7922,
+    "close": 230.3800048828125,
+    "closeVsVwmaPct": -1.88
    },
    "sellTh": 71.4,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "candleTs": "2026-10-08T17:15:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 237.36000061035156,
@@ -26,15 +26,15 @@
    "symbol": "NVDA",
    "market": "US",
    "tf": "1h",
-   "state": "NEUTRAL",
+   "state": "ARMED",
    "indicators": {
-    "rsi": 43.8,
-    "vwma20": 238.77,
-    "close": 235.5399932861328,
-    "closeVsVwmaPct": -1.35
+    "rsi": 28.6,
+    "vwma20": 238.0471,
+    "close": 230.3800048828125,
+    "closeVsVwmaPct": -3.22
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-08T15:30:00Z",
+   "candleTs": "2026-10-08T16:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 222.08999633789062,
@@ -49,19 +49,19 @@
    "tf": "4h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 64.9,
-    "vwma20": 232.0706,
-    "close": 237.36000061035156,
-    "closeVsVwmaPct": 2.28
+    "rsi": 49.0,
+    "vwma20": 232.3124,
+    "close": 230.3800048828125,
+    "closeVsVwmaPct": -0.83
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-07T17:30:00Z",
+   "candleTs": "2026-10-08T13:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 229.47000122070312,
     "ts": "2026-09-22T13:30:00Z"
    },
-   "stale": true,
+   "stale": false,
    "regime": "BULL"
   },
   {
@@ -91,13 +91,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 31.1,
-    "vwma20": 373.8331,
-    "close": 371.17498779296875,
-    "closeVsVwmaPct": -0.71
+    "rsi": 35.3,
+    "vwma20": 373.2096,
+    "close": 370.5899963378906,
+    "closeVsVwmaPct": -0.7
    },
    "sellTh": 66.5,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "candleTs": "2026-10-08T17:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 377.0700988769531,
@@ -112,13 +112,13 @@
    "tf": "1h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 46.1,
-    "vwma20": 377.5349,
-    "close": 373.1199951171875,
-    "closeVsVwmaPct": -1.17
+    "rsi": 37.6,
+    "vwma20": 376.9711,
+    "close": 369.0799865722656,
+    "closeVsVwmaPct": -2.09
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-08T15:30:00Z",
+   "candleTs": "2026-10-08T16:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 373.8800048828125,
@@ -133,19 +133,19 @@
    "tf": "4h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 58.7,
-    "vwma20": 368.0865,
-    "close": 377.6199951171875,
-    "closeVsVwmaPct": 2.59
+    "rsi": 49.7,
+    "vwma20": 367.4341,
+    "close": 369.0799865722656,
+    "closeVsVwmaPct": 0.45
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-07T17:30:00Z",
+   "candleTs": "2026-10-08T13:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 351.1199951171875,
     "ts": "2026-08-19T17:30:00Z"
    },
-   "stale": true,
+   "stale": false,
    "regime": "BEAR"
   },
   {
@@ -175,13 +175,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 63.5,
-    "vwma20": 337.5286,
-    "close": 338.67999267578125,
-    "closeVsVwmaPct": 0.34
+    "rsi": 60.3,
+    "vwma20": 337.6199,
+    "close": 338.5899963378906,
+    "closeVsVwmaPct": 0.29
    },
    "sellTh": 65.1,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "candleTs": "2026-10-08T17:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 333.92510986328125,
@@ -194,15 +194,15 @@
    "symbol": "AAPL",
    "market": "US",
    "tf": "1h",
-   "state": "CAUTION",
+   "state": "NEUTRAL",
    "indicators": {
-    "rsi": 70.7,
-    "vwma20": 335.0588,
-    "close": 338.57000732421875,
-    "closeVsVwmaPct": 1.05
+    "rsi": 66.2,
+    "vwma20": 335.2945,
+    "close": 338.0150146484375,
+    "closeVsVwmaPct": 0.81
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-08T15:30:00Z",
+   "candleTs": "2026-10-08T16:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 337.5899963378906,
@@ -217,19 +217,19 @@
    "tf": "4h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 55.8,
-    "vwma20": 334.6632,
-    "close": 336.6199951171875,
-    "closeVsVwmaPct": 0.58
+    "rsi": 58.2,
+    "vwma20": 334.6719,
+    "close": 338.0150146484375,
+    "closeVsVwmaPct": 1.0
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-07T17:30:00Z",
+   "candleTs": "2026-10-08T13:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 324.6499938964844,
     "ts": "2026-09-01T13:30:00Z"
    },
-   "stale": true,
+   "stale": false,
    "regime": "BULL"
   },
   {
@@ -259,13 +259,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 31.2,
-    "vwma20": 529.5569,
-    "close": 525.2100219726562,
-    "closeVsVwmaPct": -0.82
+    "rsi": 23.7,
+    "vwma20": 528.7634,
+    "close": 521.760009765625,
+    "closeVsVwmaPct": -1.32
    },
    "sellTh": 66.2,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "candleTs": "2026-10-08T17:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 529.0399780273438,
@@ -280,13 +280,13 @@
    "tf": "1h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 60.3,
-    "vwma20": 530.0524,
-    "close": 531.030029296875,
-    "closeVsVwmaPct": 0.18
+    "rsi": 43.2,
+    "vwma20": 529.5906,
+    "close": 523.2899780273438,
+    "closeVsVwmaPct": -1.19
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-08T15:30:00Z",
+   "candleTs": "2026-10-08T16:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 514.2249755859375,
@@ -301,19 +301,19 @@
    "tf": "4h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 67.3,
-    "vwma20": 516.5149,
-    "close": 529.5399780273438,
-    "closeVsVwmaPct": 2.52
+    "rsi": 58.7,
+    "vwma20": 518.0,
+    "close": 523.2899780273438,
+    "closeVsVwmaPct": 1.02
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-07T17:30:00Z",
+   "candleTs": "2026-10-08T13:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 455.95001220703125,
     "ts": "2026-07-30T13:30:00Z"
    },
-   "stale": true,
+   "stale": false,
    "regime": "BULL"
   },
   {
@@ -343,13 +343,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 25.7,
-    "vwma20": 721.0008,
-    "close": 716.0982055664062,
-    "closeVsVwmaPct": -0.68
+    "rsi": 38.3,
+    "vwma20": 720.1932,
+    "close": 717.260009765625,
+    "closeVsVwmaPct": -0.41
    },
    "sellTh": 69.6,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "candleTs": "2026-10-08T17:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 725.1400146484375,
@@ -364,13 +364,13 @@
    "tf": "1h",
    "state": "LONG",
    "indicators": {
-    "rsi": 33.9,
-    "vwma20": 729.9893,
-    "close": 718.6900024414062,
-    "closeVsVwmaPct": -1.55
+    "rsi": 29.4,
+    "vwma20": 728.4283,
+    "close": 713.4149780273438,
+    "closeVsVwmaPct": -2.06
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-08T15:30:00Z",
+   "candleTs": "2026-10-08T16:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 739.02001953125,
@@ -385,19 +385,19 @@
    "tf": "4h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 49.8,
-    "vwma20": 741.0443,
-    "close": 721.1500244140625,
-    "closeVsVwmaPct": -2.68
+    "rsi": 46.3,
+    "vwma20": 734.6437,
+    "close": 713.4149780273438,
+    "closeVsVwmaPct": -2.89
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-07T17:30:00Z",
+   "candleTs": "2026-10-08T13:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 613.010009765625,
     "ts": "2026-09-03T13:30:00Z"
    },
-   "stale": true,
+   "stale": false,
    "regime": "BULL"
   },
   {
@@ -427,13 +427,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 57.7,
-    "vwma20": 199.1571,
-    "close": 198.1300048828125,
-    "closeVsVwmaPct": -0.52
+    "rsi": 44.7,
+    "vwma20": 199.0794,
+    "close": 195.9149932861328,
+    "closeVsVwmaPct": -1.59
    },
    "sellTh": 66.6,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "candleTs": "2026-10-08T17:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 189.0800018310547,
@@ -448,13 +448,13 @@
    "tf": "1h",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 68.2,
-    "vwma20": 195.7029,
-    "close": 198.3800048828125,
-    "closeVsVwmaPct": 1.37
+    "rsi": 60.1,
+    "vwma20": 195.8289,
+    "close": 196.38499450683594,
+    "closeVsVwmaPct": 0.28
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-08T15:30:00Z",
+   "candleTs": "2026-10-08T16:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 173.34010314941406,
@@ -467,21 +467,21 @@
    "symbol": "PLTR",
    "market": "US",
    "tf": "4h",
-   "state": "NEUTRAL",
+   "state": "CAUTION",
    "indicators": {
-    "rsi": 69.1,
-    "vwma20": 190.3295,
-    "close": 194.07000732421875,
-    "closeVsVwmaPct": 1.97
+    "rsi": 72.8,
+    "vwma20": 191.3339,
+    "close": 196.38499450683594,
+    "closeVsVwmaPct": 2.64
    },
    "sellTh": 65.0,
-   "candleTs": "2026-10-07T17:30:00Z",
+   "candleTs": "2026-10-08T13:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 137.72500610351562,
     "ts": "2026-07-07T13:30:00Z"
    },
-   "stale": true,
+   "stale": false,
    "regime": "BULL"
   },
   {
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 29.6,
-    "vwma20": 81617.8251,
-    "close": 80893.6,
-    "closeVsVwmaPct": -0.89
+    "rsi": 30.3,
+    "vwma20": 81547.3467,
+    "close": 80800.1,
+    "closeVsVwmaPct": -0.92
    },
-   "sellTh": 64.4,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "sellTh": 64.3,
+   "candleTs": "2026-10-08T17:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 84140.2,
@@ -592,27 +592,6 @@
   {
    "symbol": "ETHUSDT",
    "market": "COIN",
-   "tf": "15m",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 22.7,
-    "vwma20": 2469.9819,
-    "close": 2424.48,
-    "closeVsVwmaPct": -1.84
-   },
-   "sellTh": 60.4,
-   "candleTs": "2026-10-08T17:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 2534.0,
-    "ts": "2026-10-08T14:15:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "ETHUSDT",
-   "market": "COIN",
    "tf": "1h",
    "state": "LONG",
    "indicators": {
@@ -679,13 +658,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 39.3,
-    "vwma20": 84.4469,
-    "close": 84.04,
-    "closeVsVwmaPct": -0.48
+    "rsi": 33.4,
+    "vwma20": 84.3074,
+    "close": 83.21,
+    "closeVsVwmaPct": -1.3
    },
    "sellTh": 63.0,
-   "candleTs": "2026-10-08T17:00:00Z",
+   "candleTs": "2026-10-08T17:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 93.19,
@@ -758,7 +737,15 @@
    "regime": "BULL"
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "symbol": "ETHUSDT",
+   "tf": "15m",
+   "code": "FETCH_FAIL",
+   "detail": "bybit 10006 Too many visits. Exceeded the API Rate Limit.",
+   "at": "2026-10-08T17:45:17Z"
+  }
+ ],
  "regimes": {
   "NVDA": "BULL",
   "TSLA": "BEAR",
