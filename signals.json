@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T01:13:30Z",
+ "generatedAt": "2026-10-08T01:28:58Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -281,9 +281,9 @@
    "state": "NEUTRAL",
    "indicators": {
     "rsi": 57.9,
-    "vwma20": 529.6236,
+    "vwma20": 529.6357,
     "close": 529.760009765625,
-    "closeVsVwmaPct": 0.03
+    "closeVsVwmaPct": 0.02
    },
    "sellTh": 65.0,
    "candleTs": "2026-10-07T20:00:00Z",
@@ -302,7 +302,7 @@
    "state": "NEUTRAL",
    "indicators": {
     "rsi": 67.4,
-    "vwma20": 516.5299,
+    "vwma20": 516.5202,
     "close": 529.760009765625,
     "closeVsVwmaPct": 2.56
    },
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 52.7,
-    "vwma20": 83263.4045,
-    "close": 83333.0,
-    "closeVsVwmaPct": 0.08
+    "rsi": 52.8,
+    "vwma20": 83255.2241,
+    "close": 83334.5,
+    "closeVsVwmaPct": 0.1
    },
    "sellTh": 65.1,
-   "candleTs": "2026-10-08T00:45:00Z",
+   "candleTs": "2026-10-08T01:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 84140.2,
@@ -593,19 +593,19 @@
    "symbol": "ETHUSDT",
    "market": "COIN",
    "tf": "15m",
-   "state": "LONG",
+   "state": "NEUTRAL",
    "indicators": {
-    "rsi": 57.0,
-    "vwma20": 2570.4707,
-    "close": 2574.3,
-    "closeVsVwmaPct": 0.15
+    "rsi": 63.9,
+    "vwma20": 2572.3694,
+    "close": 2580.53,
+    "closeVsVwmaPct": 0.32
    },
    "sellTh": 60.8,
-   "candleTs": "2026-10-08T00:45:00Z",
+   "candleTs": "2026-10-08T01:00:00Z",
    "lastEvent": {
-    "type": "ENTRY",
-    "price": 2696.95,
-    "ts": "2026-10-06T20:30:00Z"
+    "type": "EXIT",
+    "price": 2580.53,
+    "ts": "2026-10-08T01:00:00Z"
    },
    "stale": false,
    "regime": "BULL"
@@ -679,13 +679,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 59.8,
-    "vwma20": 88.0678,
-    "close": 88.61,
-    "closeVsVwmaPct": 0.62
+    "rsi": 60.6,
+    "vwma20": 88.1388,
+    "close": 88.66,
+    "closeVsVwmaPct": 0.59
    },
    "sellTh": 63.1,
-   "candleTs": "2026-10-08T00:45:00Z",
+   "candleTs": "2026-10-08T01:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 93.19,
