@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T04:45:06Z",
+ "generatedAt": "2026-10-09T05:00:46Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,20 +511,20 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 67.8,
-    "vwma20": 82003.5706,
-    "close": 82399.0,
-    "closeVsVwmaPct": 0.48
+    "rsi": 57.6,
+    "vwma20": 82048.1688,
+    "close": 82208.7,
+    "closeVsVwmaPct": 0.2
    },
-   "sellTh": 63.5,
-   "candleTs": "2026-10-09T04:15:00Z",
+   "sellTh": 63.4,
+   "candleTs": "2026-10-09T04:45:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 82185.3,
     "ts": "2026-10-09T03:15:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "BTCUSDT",
@@ -532,20 +532,20 @@
    "tf": "1h",
    "state": "LONG",
    "indicators": {
-    "rsi": 52.2,
-    "vwma20": 81650.6337,
-    "close": 82383.6,
-    "closeVsVwmaPct": 0.9
+    "rsi": 49.4,
+    "vwma20": 81638.771,
+    "close": 82208.7,
+    "closeVsVwmaPct": 0.7
    },
    "sellTh": 67.9,
-   "candleTs": "2026-10-09T03:00:00Z",
+   "candleTs": "2026-10-09T04:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 83088.4,
     "ts": "2026-10-08T09:00:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "BTCUSDT",
@@ -566,28 +566,7 @@
     "ts": "2026-09-18T12:00:00Z"
    },
    "stale": false,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "BTCUSDT",
-   "market": "COIN",
-   "tf": "1D",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 47.1,
-    "vwma20": 84296.416,
-    "close": 81719.8,
-    "closeVsVwmaPct": -3.06
-   },
-   "sellTh": 65.5,
-   "candleTs": "2026-10-08T00:00:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 69305.0,
-    "ts": "2026-08-19T00:00:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "ETHUSDT",
@@ -595,13 +574,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 58.4,
-    "vwma20": 2484.3438,
-    "close": 2489.41,
-    "closeVsVwmaPct": 0.2
+    "rsi": 53.8,
+    "vwma20": 2484.9408,
+    "close": 2485.87,
+    "closeVsVwmaPct": 0.04
    },
    "sellTh": 60.2,
-   "candleTs": "2026-10-09T04:30:00Z",
+   "candleTs": "2026-10-09T04:45:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 2483.6,
@@ -616,13 +595,13 @@
    "tf": "1h",
    "state": "LONG",
    "indicators": {
-    "rsi": 44.7,
-    "vwma20": 2470.644,
-    "close": 2492.17,
-    "closeVsVwmaPct": 0.87
+    "rsi": 42.7,
+    "vwma20": 2469.1265,
+    "close": 2485.87,
+    "closeVsVwmaPct": 0.68
    },
    "sellTh": 65.2,
-   "candleTs": "2026-10-09T03:00:00Z",
+   "candleTs": "2026-10-09T04:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 2576.8,
@@ -679,13 +658,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 57.4,
-    "vwma20": 84.7296,
-    "close": 85.09,
-    "closeVsVwmaPct": 0.43
+    "rsi": 60.8,
+    "vwma20": 84.7736,
+    "close": 85.26,
+    "closeVsVwmaPct": 0.57
    },
-   "sellTh": 63.0,
-   "candleTs": "2026-10-09T04:30:00Z",
+   "sellTh": 62.9,
+   "candleTs": "2026-10-09T04:45:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 85.25,
@@ -700,13 +679,13 @@
    "tf": "1h",
    "state": "LONG",
    "indicators": {
-    "rsi": 48.0,
-    "vwma20": 84.466,
-    "close": 85.34,
-    "closeVsVwmaPct": 1.03
+    "rsi": 47.3,
+    "vwma20": 84.4197,
+    "close": 85.26,
+    "closeVsVwmaPct": 1.0
    },
    "sellTh": 64.9,
-   "candleTs": "2026-10-09T03:00:00Z",
+   "candleTs": "2026-10-09T04:00:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 84.7,
@@ -758,7 +737,15 @@
    "regime": "BULL"
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "symbol": "BTCUSDT",
+   "tf": "1D",
+   "code": "FETCH_FAIL",
+   "detail": "bybit 10006 Too many visits. Exceeded the API Rate Limit.",
+   "at": "2026-10-09T05:00:41Z"
+  }
+ ],
  "regimes": {
   "NVDA": "BULL",
   "TSLA": "BEAR",
@@ -766,7 +753,6 @@
   "MSFT": "BULL",
   "META": "BULL",
   "PLTR": "BULL",
-  "BTCUSDT": "BULL",
   "ETHUSDT": "BULL",
   "HYPEUSDT": "BULL"
  }
