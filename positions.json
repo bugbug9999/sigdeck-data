@@ -1,12 +1,12 @@
 {
- "fetchedAt": "2026-10-12T16:13:03Z",
+ "fetchedAt": "2026-10-12T16:28:33Z",
  "positions": [],
  "totals": {},
  "error": "Your api key has expired.",
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 9292.38,
-  "pnlPct": -7.08,
+  "equity": 9278.23,
+  "pnlPct": -7.22,
   "positions": [
    {
     "symbol": "ETHUSDT",
@@ -14,8 +14,15 @@
     "lev": 3.0,
     "entryPx": 2576.06,
     "uPnl": -158.83
+   },
+   {
+    "symbol": "BTCUSDT",
+    "side": "LONG",
+    "lev": 2.0,
+    "entryPx": 82841.7,
+    "uPnl": -11.07
    }
   ],
-  "asOf": "2026-10-12T16:13:03Z"
+  "asOf": "2026-10-12T16:28:33Z"
  }
 }
