@@ -1,28 +1,28 @@
 {
- "fetchedAt": "2026-10-14T02:39:41Z",
+ "fetchedAt": "2026-10-14T02:58:24Z",
  "positions": [],
  "totals": {},
- "error": "Your api key has expired.",
+ "error": "URLError [Errno 8] nodename nor servname provided, or not known",
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 9018.58,
-  "pnlPct": -9.81,
+  "equity": 9333.97,
+  "pnlPct": -6.66,
   "positions": [
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2576.06,
-    "uPnl": -238.74
+    "uPnl": 0.0
    },
    {
     "symbol": "HYPEUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 82.85,
-    "uPnl": -76.65
+    "uPnl": 0.0
    }
   ],
-  "asOf": "2026-10-14T02:39:41Z"
+  "asOf": "2026-10-14T02:58:24Z"
  }
 }
