@@ -1,47 +1,47 @@
 {
- "fetchedAt": "2026-10-18T08:56:14Z",
+ "fetchedAt": "2026-10-18T09:11:47Z",
  "positions": [
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 86.60538386,
-   "markPx": 78.767,
+   "markPx": 79.013,
    "size": 1963.35,
-   "notional": 154647.19,
+   "notional": 155130.17,
    "leverage": "25",
-   "uPnl": -15389.49,
-   "uPnlPct": -9.05
+   "uPnl": -14906.51,
+   "uPnlPct": -8.77
   },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2509.87760876,
-   "markPx": 2409.8,
+   "markPx": 2418.68,
    "size": 65.74,
-   "notional": 158420.25,
+   "notional": 159004.02,
    "leverage": "10",
-   "uPnl": -6579.1,
-   "uPnlPct": -3.99
+   "uPnl": -5995.33,
+   "uPnlPct": -3.63
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 83406.16015683,
-   "markPx": 81707.52,
+   "markPx": 81924.6,
    "size": 4.258,
-   "notional": 347910.62,
+   "notional": 348834.95,
    "leverage": "25",
-   "uPnl": -7232.81,
-   "uPnlPct": -2.04
+   "uPnl": -6308.48,
+   "uPnlPct": -1.78
   }
  ],
  "totals": {
-  "uPnl": -29201.4
+  "uPnl": -27210.32
  },
  "equity": {
-  "totalEquity": 305379.74,
+  "totalEquity": 307469.92,
   "usdtBalance": 295200.65,
-  "usdtEquity": 265999.25
+  "usdtEquity": 267990.33
  },
  "stats": {
   "d7": {
@@ -51,10 +51,10 @@
    "pnl": 21.39
   },
   "d30": {
-   "trades": 127,
+   "trades": 126,
    "wins": 113,
-   "winRate": 89.0,
-   "pnl": 18673.04
+   "winRate": 89.7,
+   "pnl": 19430.7
   }
  },
  "recentClosed": [
@@ -292,24 +292,24 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 8396.37,
-  "pnlPct": -16.04,
+  "equity": 8410.02,
+  "pnlPct": -15.9,
   "positions": [
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2458.13,
-    "uPnl": -157.58
+    "uPnl": -151.7
    },
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 4.0,
     "entryPx": 82358.4,
-    "uPnl": -103.77
+    "uPnl": -96.0
    }
   ],
-  "asOf": "2026-10-18T08:56:14Z"
+  "asOf": "2026-10-18T09:11:47Z"
  }
 }
