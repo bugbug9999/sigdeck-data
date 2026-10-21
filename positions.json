@@ -1,63 +1,60 @@
 {
- "fetchedAt": "2026-10-21T11:57:43Z",
+ "fetchedAt": "2026-10-21T12:13:15Z",
  "positions": [
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "entryPx": 83406.16015683,
-   "markPx": 83497.88,
-   "size": 2.223,
-   "notional": 185615.79,
-   "leverage": "25",
-   "uPnl": 203.89,
-   "uPnlPct": 0.11
-  },
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 86.60538386,
-   "markPx": 81.399,
+   "markPx": 81.194,
    "size": 1963.35,
-   "notional": 159814.73,
+   "notional": 159412.24,
    "leverage": "25",
-   "uPnl": -10221.95,
-   "uPnlPct": -6.01
+   "uPnl": -10624.44,
+   "uPnlPct": -6.25
   },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2509.87760876,
-   "markPx": 2468.67,
+   "markPx": 2467.48,
    "size": 65.74,
-   "notional": 162290.37,
+   "notional": 162212.14,
    "leverage": "10",
-   "uPnl": -2708.99,
-   "uPnlPct": -1.64
+   "uPnl": -2787.22,
+   "uPnlPct": -1.69
   }
  ],
  "totals": {
-  "uPnl": -12727.05
+  "uPnl": -13411.66
  },
  "equity": {
-  "totalEquity": 322582.41,
-  "usdtBalance": 295079.56,
-  "usdtEquity": 282352.51
+  "totalEquity": 321982.09,
+  "usdtBalance": 295140.67,
+  "usdtEquity": 281729.01
  },
  "stats": {
   "d7": {
-   "trades": 1,
+   "trades": 2,
    "wins": 0,
    "winRate": 0.0,
-   "pnl": -77.26
+   "pnl": -293.42
   },
   "d30": {
-   "trades": 81,
+   "trades": 82,
    "wins": 74,
-   "winRate": 91.4,
-   "pnl": 12676.54
+   "winRate": 90.2,
+   "pnl": 12460.38
   }
  },
  "recentClosed": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": -216.16,
+   "ts": "2026-10-21T12:01:01Z",
+   "entry": 83406.1602,
+   "exit": 83447.0
+  },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
@@ -145,18 +142,17 @@
    "ts": "2026-10-05T13:52:47Z",
    "entry": 85982.5218,
    "exit": 86340.7
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "pnl": 146.66,
-   "ts": "2026-10-05T13:52:43Z",
-   "entry": 85982.5218,
-   "exit": 86352.3
   }
  ],
  "realTrades": {
   "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": -216.16,
+    "ts": "2026-10-21T12:01:01Z",
+    "entry": 83406.1602,
+    "exit": 83447.0
+   },
    {
     "side": "LONG",
     "pnl": -77.26,
@@ -191,13 +187,6 @@
     "ts": "2026-10-06T10:54:48Z",
     "entry": 86030.0138,
     "exit": 86140.0
-   },
-   {
-    "side": "LONG",
-    "pnl": -64.84,
-    "ts": "2026-10-06T09:01:40Z",
-    "entry": 86030.0138,
-    "exit": 85987.0
    }
   ],
   "ETHUSDT": [
@@ -295,6 +284,6 @@
   "equity": 8685.98,
   "pnlPct": -13.14,
   "positions": [],
-  "asOf": "2026-10-21T11:57:43Z"
+  "asOf": "2026-10-21T12:13:15Z"
  }
 }
