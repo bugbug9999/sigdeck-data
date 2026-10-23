@@ -1,47 +1,47 @@
 {
- "fetchedAt": "2026-10-23T02:59:04Z",
+ "fetchedAt": "2026-10-23T03:14:37Z",
  "positions": [
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "entryPx": 81863.00600765,
+   "markPx": 81855.07,
+   "size": 1.831,
+   "notional": 149876.63,
+   "leverage": "25",
+   "uPnl": -14.53,
+   "uPnlPct": -0.01
+  },
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 82.34989454,
-   "markPx": 78.11,
+   "markPx": 78.004,
    "size": 3886.3,
-   "notional": 303558.89,
+   "notional": 303146.95,
    "leverage": "25",
-   "uPnl": -16477.5,
-   "uPnlPct": -5.15
-  },
-  {
-   "symbol": "BTCUSDT",
-   "side": "LONG",
-   "entryPx": 81752.0,
-   "markPx": 81919.84,
-   "size": 0.611,
-   "notional": 50053.02,
-   "leverage": "25",
-   "uPnl": 102.55,
-   "uPnlPct": 0.21
+   "uPnl": -16889.45,
+   "uPnlPct": -5.28
   },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2484.92873324,
-   "markPx": 2414.72,
+   "markPx": 2412.05,
    "size": 86.52,
-   "notional": 208921.57,
+   "notional": 208690.57,
    "leverage": "10",
-   "uPnl": -6074.46,
-   "uPnlPct": -2.83
+   "uPnl": -6305.47,
+   "uPnlPct": -2.93
   }
  ],
  "totals": {
-  "uPnl": -22449.41
+  "uPnl": -23209.45
  },
  "equity": {
-  "totalEquity": 312005.06,
-  "usdtBalance": 295012.71,
-  "usdtEquity": 272563.3
+  "totalEquity": 311193.4,
+  "usdtBalance": 294996.72,
+  "usdtEquity": 271787.27
  },
  "stats": {
   "d7": {
@@ -292,31 +292,31 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 8012.02,
-  "pnlPct": -19.88,
+  "equity": 8207.81,
+  "pnlPct": -17.92,
   "positions": [
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2407.4,
-    "uPnl": -59.59
+    "uPnl": 28.71
    },
    {
     "symbol": "HYPEUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 77.651,
-    "uPnl": -7.63
+    "uPnl": 43.75
    },
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 81511.2,
-    "uPnl": -18.3
+    "uPnl": 37.8
    }
   ],
-  "asOf": "2026-10-23T02:59:04Z"
+  "asOf": "2026-10-23T03:14:37Z"
  }
 }
