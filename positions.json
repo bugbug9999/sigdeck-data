@@ -1,47 +1,47 @@
 {
- "fetchedAt": "2026-10-24T07:48:35Z",
+ "fetchedAt": "2026-10-24T08:04:06Z",
  "positions": [
-  {
-   "symbol": "HYPEUSDT",
-   "side": "LONG",
-   "entryPx": 82.34989454,
-   "markPx": 76.385,
-   "size": 3886.3,
-   "notional": 296855.03,
-   "leverage": "25",
-   "uPnl": -23181.37,
-   "uPnlPct": -7.24
-  },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2484.92873324,
-   "markPx": 2378.12,
+   "markPx": 2372.26,
    "size": 86.52,
-   "notional": 205754.94,
+   "notional": 205247.94,
    "leverage": "10",
-   "uPnl": -9241.09,
-   "uPnlPct": -4.3
+   "uPnl": -9748.1,
+   "uPnlPct": -4.53
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "entryPx": 82.34989454,
+   "markPx": 76.206,
+   "size": 3886.3,
+   "notional": 296159.38,
+   "leverage": "25",
+   "uPnl": -23877.02,
+   "uPnlPct": -7.46
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 81863.00600765,
-   "markPx": 80791.2,
+   "markPx": 80696.21,
    "size": 1.831,
-   "notional": 147928.69,
+   "notional": 147754.76,
    "leverage": "25",
-   "uPnl": -1962.48,
-   "uPnlPct": -1.31
+   "uPnl": -2136.4,
+   "uPnlPct": -1.43
   }
  ],
  "totals": {
-  "uPnl": -34384.94
+  "uPnl": -35761.52
  },
  "equity": {
-  "totalEquity": 299478.13,
-  "usdtBalance": 294893.61,
-  "usdtEquity": 260508.68
+  "totalEquity": 298035.3,
+  "usdtBalance": 294876.49,
+  "usdtEquity": 259114.97
  },
  "stats": {
   "d7": {
@@ -292,31 +292,31 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 7834.63,
-  "pnlPct": -21.65,
+  "equity": 7754.07,
+  "pnlPct": -22.46,
   "positions": [
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2407.4,
-    "uPnl": -111.78
+    "uPnl": -126.25
    },
    {
     "symbol": "HYPEUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 77.651,
-    "uPnl": -82.58
+    "uPnl": -143.91
    },
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 81511.2,
-    "uPnl": -68.55
+    "uPnl": -73.31
    }
   ],
-  "asOf": "2026-10-24T07:48:35Z"
+  "asOf": "2026-10-24T08:04:06Z"
  }
 }
