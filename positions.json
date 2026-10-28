@@ -1,36 +1,36 @@
 {
- "fetchedAt": "2026-10-28T17:27:28Z",
+ "fetchedAt": "2026-10-28T17:42:58Z",
  "positions": [
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2484.92873324,
-   "markPx": 2334.97,
+   "markPx": 2339.49,
    "size": 86.52,
-   "notional": 202021.6,
+   "notional": 202412.67,
    "leverage": "10",
-   "uPnl": -12974.43,
-   "uPnlPct": -6.03
+   "uPnl": -12583.36,
+   "uPnlPct": -5.85
   },
   {
    "symbol": "BTCUSDT",
    "side": "LONG",
    "entryPx": 81863.00600765,
-   "markPx": 80612.98,
+   "markPx": 80670.43,
    "size": 1.831,
-   "notional": 147602.37,
+   "notional": 147707.56,
    "leverage": "25",
-   "uPnl": -2288.8,
-   "uPnlPct": -1.53
+   "uPnl": -2183.61,
+   "uPnlPct": -1.46
   }
  ],
  "totals": {
-  "uPnl": -15263.23
+  "uPnl": -14766.97
  },
  "equity": {
-  "totalEquity": 318140.93,
+  "totalEquity": 318701.13,
   "usdtBalance": 294562.53,
-  "usdtEquity": 279286.29
+  "usdtEquity": 279795.57
  },
  "stats": {
   "d7": {
@@ -299,6 +299,6 @@
     "uPnl": 3.18
    }
   ],
-  "asOf": "2026-10-28T17:27:28Z"
+  "asOf": "2026-10-28T17:42:58Z"
  }
 }
