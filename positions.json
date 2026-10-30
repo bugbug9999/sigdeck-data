@@ -1,19 +1,19 @@
 {
- "fetchedAt": "2026-10-30T12:00:37Z",
+ "fetchedAt": "2026-10-30T12:16:48Z",
  "positions": [],
  "totals": {},
  "error": "Unmatched IP, please check your API key's bound IP addresses.",
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 7965.87,
-  "pnlPct": -20.34,
+  "equity": 7892.5,
+  "pnlPct": -21.07,
   "positions": [
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 2.0,
     "entryPx": 78518.8,
-    "uPnl": 0.0
+    "uPnl": -73.37
    },
    {
     "symbol": "HYPEUSDT",
@@ -23,6 +23,6 @@
     "uPnl": -122.11
    }
   ],
-  "asOf": "2026-10-30T12:00:37Z"
+  "asOf": "2026-10-30T12:16:48Z"
  }
 }
