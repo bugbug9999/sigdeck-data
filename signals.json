@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T23:16:10Z",
+ "generatedAt": "2026-10-30T23:53:12Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -104,7 +104,7 @@
     "ts": "2026-10-28T17:45:00Z"
    },
    "stale": true,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "TSLA",
@@ -125,7 +125,7 @@
     "ts": "2026-10-21T13:30:00Z"
    },
    "stale": true,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "TSLA",
@@ -146,28 +146,7 @@
     "ts": "2026-08-19T17:30:00Z"
    },
    "stale": false,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "TSLA",
-   "market": "US",
-   "tf": "1D",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 63.0,
-    "vwma20": 378.8438,
-    "close": 403.29998779296875,
-    "closeVsVwmaPct": 6.46
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-29T13:30:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 407.4599914550781,
-    "ts": "2026-10-27T13:30:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "AAPL",
@@ -186,27 +165,6 @@
     "type": "ENTRY",
     "price": 348.82000732421875,
     "ts": "2026-10-30T14:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "AAPL",
-   "market": "US",
-   "tf": "1h",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 44.3,
-    "vwma20": 346.6346,
-    "close": 344.6300048828125,
-    "closeVsVwmaPct": -0.58
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 337.5899963378906,
-    "ts": "2026-10-08T13:30:00Z"
    },
    "stale": true,
    "regime": "BULL"
@@ -277,27 +235,6 @@
   {
    "symbol": "MSFT",
    "market": "US",
-   "tf": "1h",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 42.3,
-    "vwma20": 525.3013,
-    "close": 521.9099731445312,
-    "closeVsVwmaPct": -0.65
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 533.9749755859375,
-    "ts": "2026-10-19T13:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "MSFT",
-   "market": "US",
    "tf": "4h",
    "state": "NEUTRAL",
    "indicators": {
@@ -354,27 +291,6 @@
     "type": "ENTRY",
     "price": 625.1799926757812,
     "ts": "2026-10-30T14:45:00Z"
-   },
-   "stale": true,
-   "regime": "BEAR"
-  },
-  {
-   "symbol": "META",
-   "market": "US",
-   "tf": "1h",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 38.4,
-    "vwma20": 619.5948,
-    "close": 614.989990234375,
-    "closeVsVwmaPct": -0.74
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 706.864990234375,
-    "ts": "2026-10-21T13:30:00Z"
    },
    "stale": true,
    "regime": "BEAR"
@@ -511,13 +427,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 52.4,
-    "vwma20": 76692.5746,
-    "close": 77016.6,
-    "closeVsVwmaPct": 0.42
+    "rsi": 60.4,
+    "vwma20": 76716.4822,
+    "close": 77298.6,
+    "closeVsVwmaPct": 0.76
    },
    "sellTh": 60.7,
-   "candleTs": "2026-10-30T23:00:00Z",
+   "candleTs": "2026-10-30T23:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 77607.8,
@@ -595,13 +511,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 51.3,
-    "vwma20": 2233.0168,
-    "close": 2237.08,
-    "closeVsVwmaPct": 0.18
+    "rsi": 59.3,
+    "vwma20": 2235.8408,
+    "close": 2244.55,
+    "closeVsVwmaPct": 0.39
    },
    "sellTh": 60.7,
-   "candleTs": "2026-10-30T23:00:00Z",
+   "candleTs": "2026-10-30T23:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 2250.41,
@@ -679,13 +595,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 36.9,
-    "vwma20": 89.7995,
-    "close": 89.168,
-    "closeVsVwmaPct": -0.7
+    "rsi": 49.9,
+    "vwma20": 89.8531,
+    "close": 90.068,
+    "closeVsVwmaPct": 0.24
    },
    "sellTh": 65.5,
-   "candleTs": "2026-10-30T23:00:00Z",
+   "candleTs": "2026-10-30T23:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 91.066,
@@ -758,10 +674,38 @@
    "regime": "BULL"
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "symbol": "TSLA",
+   "tf": "1D",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 54] Connection reset by peer>",
+   "at": "2026-10-30T23:39:38Z"
+  },
+  {
+   "symbol": "AAPL",
+   "tf": "1h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-10-30T23:43:04Z"
+  },
+  {
+   "symbol": "MSFT",
+   "tf": "1h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+   "at": "2026-10-30T23:48:23Z"
+  },
+  {
+   "symbol": "META",
+   "tf": "1h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 65] No route to host>",
+   "at": "2026-10-30T23:50:41Z"
+  }
+ ],
  "regimes": {
   "NVDA": "BULL",
-  "TSLA": "BULL",
   "AAPL": "BULL",
   "MSFT": "BULL",
   "META": "BEAR",
