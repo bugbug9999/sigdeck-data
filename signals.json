@@ -1,432 +1,259 @@
 {
- "generatedAt": "2026-11-02T02:42:00Z",
- "signals": [
-  {
-   "symbol": "NVDA",
-   "market": "US",
-   "tf": "15m",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 46.4,
-    "vwma20": 203.7224,
-    "close": 204.63999938964844,
-    "closeVsVwmaPct": 0.45
-   },
-   "sellTh": 62.8,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 213.72000122070312,
-    "ts": "2026-10-29T19:45:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "NVDA",
-   "market": "US",
-   "tf": "1h",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 31.4,
-    "vwma20": 209.0465,
-    "close": 204.63999938964844,
-    "closeVsVwmaPct": -2.11
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 227.71499633789062,
-    "ts": "2026-10-13T18:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "NVDA",
-   "market": "US",
-   "tf": "4h",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 30.2,
-    "vwma20": 213.9468,
-    "close": 204.63999938964844,
-    "closeVsVwmaPct": -4.35
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T17:30:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 217.55499267578125,
-    "ts": "2026-10-27T13:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "NVDA",
-   "market": "US",
-   "tf": "1D",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 35.1,
-    "vwma20": 220.9562,
-    "close": 204.63999938964844,
-    "closeVsVwmaPct": -7.38
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T13:30:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 196.50999450683594,
-    "ts": "2026-04-14T13:30:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "TSLA",
-   "market": "US",
-   "tf": "15m",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 52.1,
-    "vwma20": 398.5151,
-    "close": 399.80999755859375,
-    "closeVsVwmaPct": 0.32
-   },
-   "sellTh": 69.3,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 402.6099853515625,
-    "ts": "2026-10-28T17:45:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "TSLA",
-   "market": "US",
-   "tf": "1h",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 50.9,
-    "vwma20": 401.3587,
-    "close": 399.80999755859375,
-    "closeVsVwmaPct": -0.39
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 384.9150085449219,
-    "ts": "2026-10-21T13:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "TSLA",
-   "market": "US",
-   "tf": "4h",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 59.9,
-    "vwma20": 388.3678,
-    "close": 399.80999755859375,
-    "closeVsVwmaPct": 2.95
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T17:30:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 351.1199951171875,
-    "ts": "2026-08-19T17:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "TSLA",
-   "market": "US",
-   "tf": "1D",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 60.9,
-    "vwma20": 380.6753,
-    "close": 399.80999755859375,
-    "closeVsVwmaPct": 5.03
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T13:30:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 407.4599914550781,
-    "ts": "2026-10-27T13:30:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "AAPL",
-   "market": "US",
-   "tf": "15m",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 42.1,
-    "vwma20": 345.0256,
-    "close": 344.6300048828125,
-    "closeVsVwmaPct": -0.11
-   },
-   "sellTh": 66.5,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 348.82000732421875,
-    "ts": "2026-10-30T14:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "AAPL",
-   "market": "US",
-   "tf": "1h",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 44.3,
-    "vwma20": 346.6346,
-    "close": 344.6300048828125,
-    "closeVsVwmaPct": -0.58
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T20:00:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 337.5899963378906,
-    "ts": "2026-10-08T13:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "AAPL",
-   "market": "US",
-   "tf": "4h",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 51.0,
-    "vwma20": 345.3206,
-    "close": 344.6300048828125,
-    "closeVsVwmaPct": -0.2
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T17:30:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 324.6499938964844,
-    "ts": "2026-09-01T13:30:00Z"
-   },
-   "stale": true,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "AAPL",
-   "market": "US",
-   "tf": "1D",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 55.3,
-    "vwma20": 342.5281,
-    "close": 344.6300048828125,
-    "closeVsVwmaPct": 0.61
-   },
-   "sellTh": 65.0,
-   "candleTs": "2026-10-30T13:30:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 327.5,
-    "ts": "2026-07-15T13:30:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
-  }
- ],
+ "generatedAt": "2026-11-02T03:00:03Z",
+ "signals": [],
  "errors": [
   {
+   "symbol": "NVDA",
+   "tf": "15m",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:06Z"
+  },
+  {
+   "symbol": "NVDA",
+   "tf": "1h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:11Z"
+  },
+  {
+   "symbol": "NVDA",
+   "tf": "4h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:16Z"
+  },
+  {
+   "symbol": "NVDA",
+   "tf": "1D",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:21Z"
+  },
+  {
+   "symbol": "TSLA",
+   "tf": "15m",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:26Z"
+  },
+  {
+   "symbol": "TSLA",
+   "tf": "1h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:31Z"
+  },
+  {
+   "symbol": "TSLA",
+   "tf": "4h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:36Z"
+  },
+  {
+   "symbol": "TSLA",
+   "tf": "1D",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:41Z"
+  },
+  {
+   "symbol": "AAPL",
+   "tf": "15m",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:46Z"
+  },
+  {
+   "symbol": "AAPL",
+   "tf": "1h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:51Z"
+  },
+  {
+   "symbol": "AAPL",
+   "tf": "4h",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:57:56Z"
+  },
+  {
+   "symbol": "AAPL",
+   "tf": "1D",
+   "code": "FETCH_FAIL",
+   "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+   "at": "2026-11-02T02:58:01Z"
+  },
+  {
    "symbol": "MSFT",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:04Z"
+   "at": "2026-11-02T02:58:06Z"
   },
   {
    "symbol": "MSFT",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:09Z"
+   "at": "2026-11-02T02:58:11Z"
   },
   {
    "symbol": "MSFT",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:14Z"
+   "at": "2026-11-02T02:58:16Z"
   },
   {
    "symbol": "MSFT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:19Z"
+   "at": "2026-11-02T02:58:22Z"
   },
   {
    "symbol": "META",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:24Z"
+   "at": "2026-11-02T02:58:27Z"
   },
   {
    "symbol": "META",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:29Z"
+   "at": "2026-11-02T02:58:32Z"
   },
   {
    "symbol": "META",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:34Z"
+   "at": "2026-11-02T02:58:37Z"
   },
   {
    "symbol": "META",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:39Z"
+   "at": "2026-11-02T02:58:42Z"
   },
   {
    "symbol": "PLTR",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:44Z"
+   "at": "2026-11-02T02:58:47Z"
   },
   {
    "symbol": "PLTR",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:49Z"
+   "at": "2026-11-02T02:58:52Z"
   },
   {
    "symbol": "PLTR",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:54Z"
+   "at": "2026-11-02T02:58:57Z"
   },
   {
    "symbol": "PLTR",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:40:59Z"
+   "at": "2026-11-02T02:59:02Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:05Z"
+   "at": "2026-11-02T02:59:07Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:10Z"
+   "at": "2026-11-02T02:59:12Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:15Z"
+   "at": "2026-11-02T02:59:17Z"
   },
   {
    "symbol": "BTCUSDT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:20Z"
+   "at": "2026-11-02T02:59:22Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:25Z"
+   "at": "2026-11-02T02:59:27Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:30Z"
+   "at": "2026-11-02T02:59:33Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:35Z"
+   "at": "2026-11-02T02:59:38Z"
   },
   {
    "symbol": "ETHUSDT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:40Z"
+   "at": "2026-11-02T02:59:43Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "15m",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:45Z"
+   "at": "2026-11-02T02:59:48Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "1h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:50Z"
+   "at": "2026-11-02T02:59:53Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "4h",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:41:55Z"
+   "at": "2026-11-02T02:59:58Z"
   },
   {
    "symbol": "HYPEUSDT",
    "tf": "1D",
    "code": "FETCH_FAIL",
    "detail": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-   "at": "2026-11-02T02:42:00Z"
+   "at": "2026-11-02T03:00:03Z"
   }
  ],
- "regimes": {
-  "NVDA": "BULL",
-  "TSLA": "BULL",
-  "AAPL": "BULL"
- }
+ "regimes": {}
 }
