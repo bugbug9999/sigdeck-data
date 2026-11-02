@@ -1,35 +1,35 @@
 {
- "fetchedAt": "2026-11-02T07:52:54Z",
+ "fetchedAt": "2026-11-02T08:08:32Z",
  "positions": [],
  "totals": {},
- "error": "URLError [Errno 8] nodename nor servname provided, or not known",
+ "error": "Unmatched IP, please check your API key's bound IP addresses.",
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 7685.83,
-  "pnlPct": -23.14,
+  "equity": 7495.83,
+  "pnlPct": -25.04,
   "positions": [
    {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 77771.2,
-    "uPnl": 0.0
+    "uPnl": 33.34
    },
    {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 2243.98,
-    "uPnl": 0.0
+    "uPnl": 121.68
    },
    {
     "symbol": "HYPEUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 90.063,
-    "uPnl": 0.0
+    "uPnl": -345.02
    }
   ],
-  "asOf": "2026-11-02T07:52:54Z"
+  "asOf": "2026-11-02T08:08:32Z"
  }
 }
