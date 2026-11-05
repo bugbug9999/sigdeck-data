@@ -1,11 +1,11 @@
 {
- "fetchedAt": "2026-11-05T20:52:59Z",
+ "fetchedAt": "2026-11-05T21:08:31Z",
  "positions": [],
  "totals": {
   "uPnl": 0
  },
  "equity": {
-  "totalEquity": 317059.94,
+  "totalEquity": 316003.08,
   "usdtBalance": 51013.33,
   "usdtEquity": 51013.33
  },
@@ -17,10 +17,10 @@
    "pnl": 9844.84
   },
   "d30": {
-   "trades": 13,
-   "wins": 7,
-   "winRate": 53.8,
-   "pnl": 9217.71
+   "trades": 11,
+   "wins": 5,
+   "winRate": 45.5,
+   "pnl": 9183.9
   }
  },
  "recentClosed": [
@@ -111,14 +111,6 @@
    "ts": "2026-10-13T08:10:07Z",
    "entry": 83912.8741,
    "exit": 84021.0
-  },
-  {
-   "symbol": "ETHUSDT",
-   "side": "LONG",
-   "pnl": 0.02,
-   "ts": "2026-10-06T21:00:14Z",
-   "entry": 2695.26,
-   "exit": 2697.97
   }
  ],
  "realTrades": {
@@ -143,20 +135,6 @@
     "ts": "2026-11-04T15:09:47Z",
     "entry": 2382.7678,
     "exit": 2434.1558
-   },
-   {
-    "side": "LONG",
-    "pnl": 0.02,
-    "ts": "2026-10-06T21:00:14Z",
-    "entry": 2695.26,
-    "exit": 2697.97
-   },
-   {
-    "side": "LONG",
-    "pnl": 33.79,
-    "ts": "2026-10-06T20:59:26Z",
-    "entry": 2695.26,
-    "exit": 2697.78
    }
   ],
   "BTCUSDT": [
@@ -223,17 +201,17 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 6213.75,
-  "pnlPct": -37.86,
+  "equity": 6225.25,
+  "pnlPct": -37.75,
   "positions": [
    {
     "symbol": "HYPEUSDT",
     "side": "LONG",
     "lev": 3.0,
     "entryPx": 79.752,
-    "uPnl": -133.4
+    "uPnl": -121.9
    }
   ],
-  "asOf": "2026-11-05T20:52:59Z"
+  "asOf": "2026-11-05T21:08:31Z"
  }
 }
