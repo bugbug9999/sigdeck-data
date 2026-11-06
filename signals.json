@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T00:14:39Z",
+ "generatedAt": "2026-11-06T00:30:10Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 45.4,
-    "vwma20": 75908.4741,
-    "close": 76040.1,
-    "closeVsVwmaPct": 0.17
+    "rsi": 47.8,
+    "vwma20": 75898.6034,
+    "close": 76144.0,
+    "closeVsVwmaPct": 0.32
    },
    "sellTh": 63.3,
-   "candleTs": "2026-11-05T23:45:00Z",
+   "candleTs": "2026-11-06T00:15:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 76047.3,
@@ -593,19 +593,19 @@
    "symbol": "ETHUSDT",
    "market": "COIN",
    "tf": "15m",
-   "state": "ARMED",
+   "state": "LONG",
    "indicators": {
-    "rsi": 41.5,
-    "vwma20": 2238.3307,
-    "close": 2236.64,
-    "closeVsVwmaPct": -0.08
+    "rsi": 44.2,
+    "vwma20": 2236.3351,
+    "close": 2240.7,
+    "closeVsVwmaPct": 0.2
    },
    "sellTh": 64.0,
-   "candleTs": "2026-11-05T23:45:00Z",
+   "candleTs": "2026-11-06T00:15:00Z",
    "lastEvent": {
-    "type": "EXIT",
-    "price": 2296.18,
-    "ts": "2026-11-04T05:30:00Z"
+    "type": "ENTRY",
+    "price": 2240.7,
+    "ts": "2026-11-06T00:15:00Z"
    },
    "stale": false,
    "regime": "BULL"
@@ -679,20 +679,20 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 34.2,
-    "vwma20": 77.6454,
-    "close": 76.607,
-    "closeVsVwmaPct": -1.34
+    "rsi": 44.3,
+    "vwma20": 77.577,
+    "close": 77.333,
+    "closeVsVwmaPct": -0.31
    },
    "sellTh": 58.0,
-   "candleTs": "2026-11-05T23:45:00Z",
+   "candleTs": "2026-11-06T00:15:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 84.036,
     "ts": "2026-11-04T22:30:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "HYPEUSDT",
@@ -713,7 +713,7 @@
     "ts": "2026-11-04T10:00:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": null
   },
   {
    "symbol": "HYPEUSDT",
@@ -734,31 +734,18 @@
     "ts": "2026-10-27T16:00:00Z"
    },
    "stale": false,
-   "regime": "BULL"
-  },
-  {
-   "symbol": "HYPEUSDT",
-   "market": "COIN",
-   "tf": "1D",
-   "state": "NEUTRAL",
-   "indicators": {
-    "rsi": 39.0,
-    "vwma20": 83.8352,
-    "close": 76.607,
-    "closeVsVwmaPct": -8.62
-   },
-   "sellTh": 66.4,
-   "candleTs": "2026-11-05T00:00:00Z",
-   "lastEvent": {
-    "type": "EXIT",
-    "price": 69.73,
-    "ts": "2026-08-19T00:00:00Z"
-   },
-   "stale": false,
-   "regime": "BULL"
+   "regime": null
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "symbol": "HYPEUSDT",
+   "tf": "1D",
+   "code": "FETCH_FAIL",
+   "detail": "bybit 10006 Too many visits. Exceeded the API Rate Limit.",
+   "at": "2026-11-06T00:30:10Z"
+  }
+ ],
  "regimes": {
   "NVDA": "BEAR",
   "TSLA": "BEAR",
@@ -767,7 +754,6 @@
   "META": "BEAR",
   "PLTR": "BULL",
   "BTCUSDT": "BULL",
-  "ETHUSDT": "BULL",
-  "HYPEUSDT": "BULL"
+  "ETHUSDT": "BULL"
  }
 }
