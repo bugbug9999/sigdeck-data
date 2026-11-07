@@ -1,36 +1,36 @@
 {
- "fetchedAt": "2026-11-07T21:19:44Z",
+ "fetchedAt": "2026-11-07T21:35:13Z",
  "positions": [
   {
    "symbol": "HYPEUSDT",
    "side": "LONG",
    "entryPx": 78.641,
-   "markPx": 77.074,
+   "markPx": 76.865,
    "size": 254.32,
-   "notional": 19601.46,
+   "notional": 19548.31,
    "leverage": "25",
-   "uPnl": -398.52,
-   "uPnlPct": -1.99
+   "uPnl": -451.67,
+   "uPnlPct": -2.26
   },
   {
    "symbol": "ETHUSDT",
    "side": "LONG",
    "entryPx": 2242.32,
-   "markPx": 2226.09,
+   "markPx": 2226.78,
    "size": 13.37,
-   "notional": 29762.82,
+   "notional": 29772.05,
    "leverage": "10",
-   "uPnl": -217.0,
-   "uPnlPct": -0.72
+   "uPnl": -207.77,
+   "uPnlPct": -0.69
   }
  ],
  "totals": {
-  "uPnl": -615.52
+  "uPnl": -659.44
  },
  "equity": {
-  "totalEquity": 314131.46,
+  "totalEquity": 314143.91,
   "usdtBalance": 50994.13,
-  "usdtEquity": 50378.62
+  "usdtEquity": 50334.92
  },
  "stats": {
   "d7": {
@@ -242,6 +242,6 @@
     "uPnl": -49.78
    }
   ],
-  "asOf": "2026-11-07T21:19:44Z"
+  "asOf": "2026-11-07T21:35:13Z"
  }
 }
