@@ -1,8 +1,227 @@
 {
- "fetchedAt": "2026-11-12T01:22:03Z",
- "positions": [],
- "totals": {},
- "error": "Unmatched IP, please check your API key's bound IP addresses.",
+ "fetchedAt": "2026-11-12T01:38:40Z",
+ "positions": [
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "entryPx": 78.641,
+   "markPx": 71.845,
+   "size": 254.32,
+   "notional": 18271.62,
+   "leverage": "25",
+   "uPnl": -1728.36,
+   "uPnlPct": -8.64
+  },
+  {
+   "symbol": "ETHUSDT",
+   "side": "LONG",
+   "entryPx": 2242.32,
+   "markPx": 2050.22,
+   "size": 13.37,
+   "notional": 27411.44,
+   "leverage": "10",
+   "uPnl": -2568.38,
+   "uPnlPct": -8.57
+  }
+ ],
+ "totals": {
+  "uPnl": -4296.74
+ },
+ "equity": {
+  "totalEquity": 303691.87,
+  "usdtBalance": 50966.11,
+  "usdtEquity": 46669.37
+ },
+ "stats": {
+  "d7": {
+   "trades": 0,
+   "wins": 0,
+   "winRate": null,
+   "pnl": 0
+  },
+  "d30": {
+   "trades": 11,
+   "wins": 5,
+   "winRate": 45.5,
+   "pnl": 9183.9
+  }
+ },
+ "recentClosed": [
+  {
+   "symbol": "ETHUSDT",
+   "side": "SHORT",
+   "pnl": -3.11,
+   "ts": "2026-11-04T15:12:17Z",
+   "entry": 2430.0,
+   "exit": 2430.99
+  },
+  {
+   "symbol": "ETHUSDT",
+   "side": "LONG",
+   "pnl": 3114.94,
+   "ts": "2026-11-04T15:12:01Z",
+   "entry": 2382.7678,
+   "exit": 2430.0
+  },
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 1460.67,
+   "ts": "2026-11-04T15:11:17Z",
+   "entry": 79647.4044,
+   "exit": 80573.6
+  },
+  {
+   "symbol": "ETHUSDT",
+   "side": "LONG",
+   "pnl": 3904.4,
+   "ts": "2026-11-04T15:09:47Z",
+   "entry": 2382.7678,
+   "exit": 2434.1558
+  },
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 1367.95,
+   "ts": "2026-11-04T15:09:35Z",
+   "entry": 79647.4044,
+   "exit": 80540.7
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "pnl": -0.02,
+   "ts": "2026-10-28T10:05:36Z",
+   "entry": 82.34989455,
+   "exit": 82.425
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "pnl": -138.71,
+   "ts": "2026-10-28T10:05:31Z",
+   "entry": 82.34989454,
+   "exit": 82.408
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "side": "LONG",
+   "pnl": -250.18,
+   "ts": "2026-10-28T10:04:21Z",
+   "entry": 82.34989454,
+   "exit": 82.4
+  },
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": -216.16,
+   "ts": "2026-10-21T12:01:01Z",
+   "entry": 83406.1602,
+   "exit": 83447.0
+  },
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": -77.26,
+   "ts": "2026-10-21T11:56:04Z",
+   "entry": 83406.1602,
+   "exit": 83506.2793
+  },
+  {
+   "symbol": "BTCUSDT",
+   "side": "LONG",
+   "pnl": 21.39,
+   "ts": "2026-10-13T08:10:07Z",
+   "entry": 83912.8741,
+   "exit": 84021.0
+  }
+ ],
+ "realTrades": {
+  "ETHUSDT": [
+   {
+    "side": "SHORT",
+    "pnl": -3.11,
+    "ts": "2026-11-04T15:12:17Z",
+    "entry": 2430.0,
+    "exit": 2430.99
+   },
+   {
+    "side": "LONG",
+    "pnl": 3114.94,
+    "ts": "2026-11-04T15:12:01Z",
+    "entry": 2382.7678,
+    "exit": 2430.0
+   },
+   {
+    "side": "LONG",
+    "pnl": 3904.4,
+    "ts": "2026-11-04T15:09:47Z",
+    "entry": 2382.7678,
+    "exit": 2434.1558
+   }
+  ],
+  "BTCUSDT": [
+   {
+    "side": "LONG",
+    "pnl": 1460.67,
+    "ts": "2026-11-04T15:11:17Z",
+    "entry": 79647.4044,
+    "exit": 80573.6
+   },
+   {
+    "side": "LONG",
+    "pnl": 1367.95,
+    "ts": "2026-11-04T15:09:35Z",
+    "entry": 79647.4044,
+    "exit": 80540.7
+   },
+   {
+    "side": "LONG",
+    "pnl": -216.16,
+    "ts": "2026-10-21T12:01:01Z",
+    "entry": 83406.1602,
+    "exit": 83447.0
+   },
+   {
+    "side": "LONG",
+    "pnl": -77.26,
+    "ts": "2026-10-21T11:56:04Z",
+    "entry": 83406.1602,
+    "exit": 83506.2793
+   },
+   {
+    "side": "LONG",
+    "pnl": 21.39,
+    "ts": "2026-10-13T08:10:07Z",
+    "entry": 83912.8741,
+    "exit": 84021.0
+   }
+  ],
+  "HYPEUSDT": [
+   {
+    "side": "LONG",
+    "pnl": -0.02,
+    "ts": "2026-10-28T10:05:36Z",
+    "entry": 82.34989455,
+    "exit": 82.425
+   },
+   {
+    "side": "LONG",
+    "pnl": -138.71,
+    "ts": "2026-10-28T10:05:31Z",
+    "entry": 82.34989454,
+    "exit": 82.408
+   },
+   {
+    "side": "LONG",
+    "pnl": -250.18,
+    "ts": "2026-10-28T10:04:21Z",
+    "entry": 82.34989454,
+    "exit": 82.4
+   }
+  ]
+ },
+ "error": null,
  "aiSim": {
   "startCapital": 10000.0,
   "equity": 4945.17,
@@ -16,6 +235,6 @@
     "uPnl": -71.36
    }
   ],
-  "asOf": "2026-11-12T01:22:04Z"
+  "asOf": "2026-11-12T01:38:40Z"
  }
 }
