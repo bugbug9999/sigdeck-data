@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T19:00:12Z",
+ "generatedAt": "2026-11-15T19:15:42Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 47.1,
-    "vwma20": 64699.6096,
-    "close": 64708.8,
-    "closeVsVwmaPct": 0.01
+    "rsi": 57.3,
+    "vwma20": 64700.0076,
+    "close": 65040.0,
+    "closeVsVwmaPct": 0.53
    },
    "sellTh": 58.0,
-   "candleTs": "2026-11-15T18:45:00Z",
+   "candleTs": "2026-11-15T19:00:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 65172.5,
@@ -595,17 +595,38 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 50.4,
-    "vwma20": 1811.2714,
-    "close": 1814.92,
-    "closeVsVwmaPct": 0.2
+    "rsi": 57.7,
+    "vwma20": 1811.5844,
+    "close": 1823.6,
+    "closeVsVwmaPct": 0.66
    },
    "sellTh": 58.0,
-   "candleTs": "2026-11-15T18:45:00Z",
+   "candleTs": "2026-11-15T19:00:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 1803.59,
     "ts": "2026-11-15T02:15:00Z"
+   },
+   "stale": false,
+   "regime": "BEAR"
+  },
+  {
+   "symbol": "ETHUSDT",
+   "market": "COIN",
+   "tf": "1h",
+   "state": "LONG",
+   "indicators": {
+    "rsi": 47.7,
+    "vwma20": 1794.4901,
+    "close": 1814.92,
+    "closeVsVwmaPct": 1.14
+   },
+   "sellTh": 61.0,
+   "candleTs": "2026-11-15T18:00:00Z",
+   "lastEvent": {
+    "type": "ENTRY",
+    "price": 2234.66,
+    "ts": "2026-11-06T16:00:00Z"
    },
    "stale": false,
    "regime": "BEAR"
@@ -658,13 +679,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 43.2,
-    "vwma20": 66.9581,
-    "close": 66.537,
-    "closeVsVwmaPct": -0.63
+    "rsi": 52.4,
+    "vwma20": 66.9084,
+    "close": 67.094,
+    "closeVsVwmaPct": 0.28
    },
    "sellTh": 60.3,
-   "candleTs": "2026-11-15T18:45:00Z",
+   "candleTs": "2026-11-15T19:00:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 65.83,
@@ -737,15 +758,7 @@
    "regime": "BEAR"
   }
  ],
- "errors": [
-  {
-   "symbol": "ETHUSDT",
-   "tf": "1h",
-   "code": "FETCH_FAIL",
-   "detail": "bybit 10006 Too many visits. Exceeded the API Rate Limit.",
-   "at": "2026-11-15T19:00:09Z"
-  }
- ],
+ "errors": [],
  "regimes": {
   "NVDA": "BEAR",
   "TSLA": "BULL",
