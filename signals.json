@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T06:36:39Z",
+ "generatedAt": "2026-11-17T06:52:23Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 41.1,
-    "vwma20": 64848.0814,
-    "close": 64563.0,
-    "closeVsVwmaPct": -0.44
+    "rsi": 37.2,
+    "vwma20": 64754.6802,
+    "close": 64411.0,
+    "closeVsVwmaPct": -0.53
    },
    "sellTh": 58.0,
-   "candleTs": "2026-11-17T06:15:00Z",
+   "candleTs": "2026-11-17T06:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 65262.9,
@@ -595,13 +595,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 51.5,
-    "vwma20": 1827.2513,
-    "close": 1828.33,
-    "closeVsVwmaPct": 0.06
+    "rsi": 45.5,
+    "vwma20": 1826.8385,
+    "close": 1822.04,
+    "closeVsVwmaPct": -0.26
    },
    "sellTh": 58.2,
-   "candleTs": "2026-11-17T06:15:00Z",
+   "candleTs": "2026-11-17T06:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 1824.03,
@@ -679,20 +679,20 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 56.5,
-    "vwma20": 69.7593,
-    "close": 70.04,
-    "closeVsVwmaPct": 0.4
+    "rsi": 48.5,
+    "vwma20": 69.753,
+    "close": 69.58,
+    "closeVsVwmaPct": -0.25
    },
    "sellTh": 62.1,
-   "candleTs": "2026-11-17T06:15:00Z",
+   "candleTs": "2026-11-17T06:30:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 67.385,
     "ts": "2026-11-16T14:30:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": "BEAR"
   },
   {
    "symbol": "HYPEUSDT",
@@ -713,7 +713,7 @@
     "ts": "2026-11-16T19:00:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": "BEAR"
   },
   {
    "symbol": "HYPEUSDT",
@@ -734,7 +734,7 @@
     "ts": "2026-11-09T12:00:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": "BEAR"
   },
   {
    "symbol": "HYPEUSDT",
@@ -755,7 +755,7 @@
     "ts": "2026-08-19T00:00:00Z"
    },
    "stale": false,
-   "regime": "BULL"
+   "regime": "BEAR"
   }
  ],
  "errors": [],
@@ -768,6 +768,6 @@
   "PLTR": "BULL",
   "BTCUSDT": "BEAR",
   "ETHUSDT": "BEAR",
-  "HYPEUSDT": "BULL"
+  "HYPEUSDT": "BEAR"
  }
 }
