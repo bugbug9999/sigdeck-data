@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T00:14:47Z",
+ "generatedAt": "2026-11-18T00:30:19Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 64.3,
-    "vwma20": 64489.155,
-    "close": 64919.9,
-    "closeVsVwmaPct": 0.67
+    "rsi": 57.7,
+    "vwma20": 64538.5071,
+    "close": 64731.1,
+    "closeVsVwmaPct": 0.3
    },
    "sellTh": 58.0,
-   "candleTs": "2026-11-17T23:45:00Z",
+   "candleTs": "2026-11-18T00:15:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 64402.5,
@@ -595,20 +595,20 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 64.3,
-    "vwma20": 1809.3526,
-    "close": 1824.03,
-    "closeVsVwmaPct": 0.81
+    "rsi": 58.4,
+    "vwma20": 1810.713,
+    "close": 1818.41,
+    "closeVsVwmaPct": 0.43
    },
-   "sellTh": 58.6,
-   "candleTs": "2026-11-17T23:45:00Z",
+   "sellTh": 58.7,
+   "candleTs": "2026-11-18T00:15:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 1808.07,
     "ts": "2026-11-17T21:15:00Z"
    },
    "stale": false,
-   "regime": "BEAR"
+   "regime": null
   },
   {
    "symbol": "ETHUSDT",
@@ -629,7 +629,7 @@
     "ts": "2026-11-06T16:00:00Z"
    },
    "stale": false,
-   "regime": "BEAR"
+   "regime": null
   },
   {
    "symbol": "ETHUSDT",
@@ -650,28 +650,7 @@
     "ts": "2026-11-17T00:00:00Z"
    },
    "stale": false,
-   "regime": "BEAR"
-  },
-  {
-   "symbol": "ETHUSDT",
-   "market": "COIN",
-   "tf": "1D",
-   "state": "LONG",
-   "indicators": {
-    "rsi": 26.0,
-    "vwma20": 2083.4544,
-    "close": 1824.03,
-    "closeVsVwmaPct": -12.45
-   },
-   "sellTh": 64.8,
-   "candleTs": "2026-11-17T00:00:00Z",
-   "lastEvent": {
-    "type": "ENTRY",
-    "price": 2423.32,
-    "ts": "2026-11-04T00:00:00Z"
-   },
-   "stale": false,
-   "regime": "BEAR"
+   "regime": null
   },
   {
    "symbol": "HYPEUSDT",
@@ -679,13 +658,13 @@
    "tf": "15m",
    "state": "NEUTRAL",
    "indicators": {
-    "rsi": 63.8,
-    "vwma20": 69.0284,
-    "close": 69.986,
-    "closeVsVwmaPct": 1.39
+    "rsi": 57.5,
+    "vwma20": 69.1103,
+    "close": 69.579,
+    "closeVsVwmaPct": 0.68
    },
-   "sellTh": 62.1,
-   "candleTs": "2026-11-17T23:45:00Z",
+   "sellTh": 62.2,
+   "candleTs": "2026-11-18T00:15:00Z",
    "lastEvent": {
     "type": "EXIT",
     "price": 70.151,
@@ -758,7 +737,15 @@
    "regime": "BEAR"
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "symbol": "ETHUSDT",
+   "tf": "1D",
+   "code": "FETCH_FAIL",
+   "detail": "bybit 10006 Too many visits. Exceeded the API Rate Limit.",
+   "at": "2026-11-18T00:30:17Z"
+  }
+ ],
  "regimes": {
   "NVDA": "BEAR",
   "TSLA": "BULL",
@@ -767,7 +754,6 @@
   "META": "BEAR",
   "PLTR": "BULL",
   "BTCUSDT": "BEAR",
-  "ETHUSDT": "BEAR",
   "HYPEUSDT": "BEAR"
  }
 }
