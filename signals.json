@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T06:42:22Z",
+ "generatedAt": "2026-11-21T06:57:56Z",
  "signals": [
   {
    "symbol": "NVDA",
@@ -511,13 +511,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 30.7,
-    "vwma20": 56461.0178,
-    "close": 56085.0,
-    "closeVsVwmaPct": -0.67
+    "rsi": 49.2,
+    "vwma20": 56495.2917,
+    "close": 57154.8,
+    "closeVsVwmaPct": 1.17
    },
    "sellTh": 58.4,
-   "candleTs": "2026-11-21T06:15:00Z",
+   "candleTs": "2026-11-21T06:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 58646.4,
@@ -593,19 +593,19 @@
    "symbol": "ETHUSDT",
    "market": "COIN",
    "tf": "15m",
-   "state": "LONG",
+   "state": "NEUTRAL",
    "indicators": {
-    "rsi": 40.2,
-    "vwma20": 1567.8145,
-    "close": 1569.31,
-    "closeVsVwmaPct": 0.1
+    "rsi": 60.0,
+    "vwma20": 1571.999,
+    "close": 1612.84,
+    "closeVsVwmaPct": 2.6
    },
    "sellTh": 59.2,
-   "candleTs": "2026-11-21T06:15:00Z",
+   "candleTs": "2026-11-21T06:30:00Z",
    "lastEvent": {
-    "type": "ENTRY",
-    "price": 1628.72,
-    "ts": "2026-11-20T21:30:00Z"
+    "type": "EXIT",
+    "price": 1612.84,
+    "ts": "2026-11-21T06:30:00Z"
    },
    "stale": false,
    "regime": "BEAR"
@@ -679,13 +679,13 @@
    "tf": "15m",
    "state": "LONG",
    "indicators": {
-    "rsi": 34.0,
-    "vwma20": 57.2049,
-    "close": 56.637,
-    "closeVsVwmaPct": -0.99
+    "rsi": 50.5,
+    "vwma20": 57.2106,
+    "close": 58.222,
+    "closeVsVwmaPct": 1.77
    },
    "sellTh": 61.4,
-   "candleTs": "2026-11-21T06:15:00Z",
+   "candleTs": "2026-11-21T06:30:00Z",
    "lastEvent": {
     "type": "ENTRY",
     "price": 66.075,
