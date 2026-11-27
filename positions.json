@@ -1,11 +1,11 @@
 {
- "fetchedAt": "2026-11-27T15:44:36Z",
+ "fetchedAt": "2026-11-27T16:00:06Z",
  "positions": [],
  "totals": {
   "uPnl": 0
  },
  "equity": {
-  "totalEquity": 254662.87,
+  "totalEquity": 254570.77,
   "usdtBalance": 44909.48,
   "usdtEquity": 44909.48
  },
@@ -141,9 +141,17 @@
  "error": null,
  "aiSim": {
   "startCapital": 10000.0,
-  "equity": 4702.19,
-  "pnlPct": -52.98,
-  "positions": [],
-  "asOf": "2026-11-27T15:44:36Z"
+  "equity": 4684.22,
+  "pnlPct": -53.16,
+  "positions": [
+   {
+    "symbol": "HYPEUSDT",
+    "side": "LONG",
+    "lev": 2.0,
+    "entryPx": 64.63,
+    "uPnl": -16.38
+   }
+  ],
+  "asOf": "2026-11-27T16:00:06Z"
  }
 }
